@@ -1,0 +1,2478 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -530159753, guid: 68c7e4565cde54155bb78d8e935f1ddb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cacheType: 3
+  lastUpdatedAtString: 2020-03-04T14:48:04.381+01:00
+  initializedAtString: 2020-03-04T13:33:26.029+01:00
+  log:
+  - commitID: 063d52ff00f64dad47af9a06062deb1367aef0c1
+    mergeA: 
+    mergeB: 
+    authorName: MrFlou
+    authorEmail: Simonflou@gmail.com
+    commitEmail: Simonflou@gmail.com
+    commitName: MrFlou
+    summary: Delete VR-Photogrammetry
+    description: 
+    timeString: 2020-03-04T14:47:57.000+01:00
+    commitTimeString: 2020-03-04T14:47:57.000+01:00
+    changes:
+    - path: VR-Photogrammetry
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\VR-Photogrammetry
+      projectPath: VR-Photogrammetry
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+  - commitID: 75067bd4fdf309060b5e8f04bbe837e33894b0b5
+    mergeA: 
+    mergeB: 
+    authorName: MrFlou
+    authorEmail: Simonflou@gmail.com
+    commitEmail: Simonflou@gmail.com
+    commitName: MrFlou
+    summary: test
+    description: 
+    timeString: 2020-03-04T14:43:02.000+01:00
+    commitTimeString: 2020-03-04T14:43:02.000+01:00
+    changes:
+    - path: VR-Photogrammetry
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\VR-Photogrammetry
+      projectPath: VR-Photogrammetry
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: 22306c00f1f9adaa2a3321c5a1066ace39df7823
+    mergeA: 
+    mergeB: 
+    authorName: "Simon G\xF8rtz Flou Nielsen"
+    authorEmail: sgfn17@student.aau.dk
+    commitEmail: sgfn17@student.aau.dk
+    commitName: "Simon G\xF8rtz Flou Nielsen"
+    summary: Update to the HDRP
+    description: 
+    timeString: 2020-03-04T14:27:09.000+01:00
+    commitTimeString: 2020-03-04T14:27:09.000+01:00
+    changes:
+    - path: Assets\AAU_AVALap.unity
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\AAU_AVALap.unity
+      projectPath: Assets\AAU_AVALap.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\AAU_AVALap\Rendering Settings Profile.asset
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\AAU_AVALap\Rendering
+        Settings Profile.asset
+      projectPath: Assets\AAU_AVALap\Rendering Settings Profile.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\AAU_AVALap\Rendering Settings Profile.asset.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\AAU_AVALap\Rendering
+        Settings Profile.asset.meta
+      projectPath: Assets\AAU_AVALap\Rendering Settings Profile.asset.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\Settings\SampleScenePostProcessingSettings.asset
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\Settings\SampleScenePostProcessingSettings.asset
+      projectPath: Assets\HDRP\Settings\SampleScenePostProcessingSettings.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\HDRP\Settings\SampleSceneRenderingSettings.asset
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\Settings\SampleSceneRenderingSettings.asset
+      projectPath: Assets\HDRP\Settings\SampleSceneRenderingSettings.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\VFXDefaultResources.asset
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\VFXDefaultResources.asset
+      projectPath: Assets\VFXDefaultResources.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\VFXDefaultResources.asset.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\VFXDefaultResources.asset.meta
+      projectPath: Assets\VFXDefaultResources.asset.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\UnityConnectSettings.asset
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\ProjectSettings\UnityConnectSettings.asset
+      projectPath: ProjectSettings\UnityConnectSettings.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: ProjectSettings\VFXManager.asset
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\ProjectSettings\VFXManager.asset
+      projectPath: ProjectSettings\VFXManager.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: 64f1e3f3216f8488422789318473085c6f48b2a4
+    mergeA: 
+    mergeB: 
+    authorName: "Simon G\xF8rtz Flou Nielsen"
+    authorEmail: sgfn17@student.aau.dk
+    commitEmail: sgfn17@student.aau.dk
+    commitName: "Simon G\xF8rtz Flou Nielsen"
+    summary: forgot
+    description: 
+    timeString: 2020-03-04T13:35:23.000+01:00
+    commitTimeString: 2020-03-04T13:35:23.000+01:00
+    changes:
+    - path: .collabignore
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\.collabignore
+      projectPath: .collabignore
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: 7f03147424b1e39729821c5bd1663317f1d0b7a7
+    mergeA: 
+    mergeB: 
+    authorName: "Simon G\xF8rtz Flou Nielsen"
+    authorEmail: sgfn17@student.aau.dk
+    commitEmail: sgfn17@student.aau.dk
+    commitName: "Simon G\xF8rtz Flou Nielsen"
+    summary: Start
+    description: Start of everything
+    timeString: 2020-03-04T13:34:41.000+01:00
+    commitTimeString: 2020-03-04T13:34:41.000+01:00
+    changes:
+    - path: Assets\AAU_AVALap.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\AAU_AVALap.meta
+      projectPath: Assets\AAU_AVALap.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\AAU_AVALap.unity
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\AAU_AVALap.unity
+      projectPath: Assets\AAU_AVALap.unity
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\AAU_AVALap.unity.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\AAU_AVALap.unity.meta
+      projectPath: Assets\AAU_AVALap.unity.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\AAU_AVALap\ReflectionProbe-0.exr
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\AAU_AVALap\ReflectionProbe-0.exr
+      projectPath: Assets\AAU_AVALap\ReflectionProbe-0.exr
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\AAU_AVALap\ReflectionProbe-0.exr.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\AAU_AVALap\ReflectionProbe-0.exr.meta
+      projectPath: Assets\AAU_AVALap\ReflectionProbe-0.exr.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP.meta
+      projectPath: Assets\HDRP.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets.meta
+      projectPath: Assets\HDRP\ExampleAssets.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Materials.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Materials.meta
+      projectPath: Assets\HDRP\ExampleAssets\Materials.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Materials\ConstructionLight_Mat.mat
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Materials\ConstructionLight_Mat.mat
+      projectPath: Assets\HDRP\ExampleAssets\Materials\ConstructionLight_Mat.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Materials\ConstructionLight_Mat.mat.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Materials\ConstructionLight_Mat.mat.meta
+      projectPath: Assets\HDRP\ExampleAssets\Materials\ConstructionLight_Mat.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Materials\DryWallPainted_Mat.mat
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Materials\DryWallPainted_Mat.mat
+      projectPath: Assets\HDRP\ExampleAssets\Materials\DryWallPainted_Mat.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Materials\DryWallPainted_Mat.mat.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Materials\DryWallPainted_Mat.mat.meta
+      projectPath: Assets\HDRP\ExampleAssets\Materials\DryWallPainted_Mat.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Materials\DryWall_Mat.mat
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Materials\DryWall_Mat.mat
+      projectPath: Assets\HDRP\ExampleAssets\Materials\DryWall_Mat.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Materials\DryWall_Mat.mat.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Materials\DryWall_Mat.mat.meta
+      projectPath: Assets\HDRP\ExampleAssets\Materials\DryWall_Mat.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Materials\Ground_Mat.mat
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Materials\Ground_Mat.mat
+      projectPath: Assets\HDRP\ExampleAssets\Materials\Ground_Mat.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Materials\Ground_Mat.mat.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Materials\Ground_Mat.mat.meta
+      projectPath: Assets\HDRP\ExampleAssets\Materials\Ground_Mat.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Materials\Hammer_Mat.mat
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Materials\Hammer_Mat.mat
+      projectPath: Assets\HDRP\ExampleAssets\Materials\Hammer_Mat.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Materials\Hammer_Mat.mat.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Materials\Hammer_Mat.mat.meta
+      projectPath: Assets\HDRP\ExampleAssets\Materials\Hammer_Mat.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Materials\HardHat_Mat.mat
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Materials\HardHat_Mat.mat
+      projectPath: Assets\HDRP\ExampleAssets\Materials\HardHat_Mat.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Materials\HardHat_Mat.mat.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Materials\HardHat_Mat.mat.meta
+      projectPath: Assets\HDRP\ExampleAssets\Materials\HardHat_Mat.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Materials\Jigsaw_Mat.mat
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Materials\Jigsaw_Mat.mat
+      projectPath: Assets\HDRP\ExampleAssets\Materials\Jigsaw_Mat.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Materials\Jigsaw_Mat.mat.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Materials\Jigsaw_Mat.mat.meta
+      projectPath: Assets\HDRP\ExampleAssets\Materials\Jigsaw_Mat.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Materials\LightBulb_Mat.mat
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Materials\LightBulb_Mat.mat
+      projectPath: Assets\HDRP\ExampleAssets\Materials\LightBulb_Mat.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Materials\LightBulb_Mat.mat.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Materials\LightBulb_Mat.mat.meta
+      projectPath: Assets\HDRP\ExampleAssets\Materials\LightBulb_Mat.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Materials\Liquid_Mat.mat
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Materials\Liquid_Mat.mat
+      projectPath: Assets\HDRP\ExampleAssets\Materials\Liquid_Mat.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Materials\Liquid_Mat.mat.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Materials\Liquid_Mat.mat.meta
+      projectPath: Assets\HDRP\ExampleAssets\Materials\Liquid_Mat.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Materials\Metal_Blue_Simple_Mat.mat
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Materials\Metal_Blue_Simple_Mat.mat
+      projectPath: Assets\HDRP\ExampleAssets\Materials\Metal_Blue_Simple_Mat.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Materials\Metal_Blue_Simple_Mat.mat.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Materials\Metal_Blue_Simple_Mat.mat.meta
+      projectPath: Assets\HDRP\ExampleAssets\Materials\Metal_Blue_Simple_Mat.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Materials\Metal_Simple_Mat.mat
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Materials\Metal_Simple_Mat.mat
+      projectPath: Assets\HDRP\ExampleAssets\Materials\Metal_Simple_Mat.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Materials\Metal_Simple_Mat.mat.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Materials\Metal_Simple_Mat.mat.meta
+      projectPath: Assets\HDRP\ExampleAssets\Materials\Metal_Simple_Mat.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Materials\OBS_Mat.mat
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Materials\OBS_Mat.mat
+      projectPath: Assets\HDRP\ExampleAssets\Materials\OBS_Mat.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Materials\OBS_Mat.mat.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Materials\OBS_Mat.mat.meta
+      projectPath: Assets\HDRP\ExampleAssets\Materials\OBS_Mat.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Materials\PaintBrush_Mat.mat
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Materials\PaintBrush_Mat.mat
+      projectPath: Assets\HDRP\ExampleAssets\Materials\PaintBrush_Mat.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Materials\PaintBrush_Mat.mat.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Materials\PaintBrush_Mat.mat.meta
+      projectPath: Assets\HDRP\ExampleAssets\Materials\PaintBrush_Mat.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Materials\PaintCan_mat.mat
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Materials\PaintCan_mat.mat
+      projectPath: Assets\HDRP\ExampleAssets\Materials\PaintCan_mat.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Materials\PaintCan_mat.mat.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Materials\PaintCan_mat.mat.meta
+      projectPath: Assets\HDRP\ExampleAssets\Materials\PaintCan_mat.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Materials\PaintLabel_Mat.mat
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Materials\PaintLabel_Mat.mat
+      projectPath: Assets\HDRP\ExampleAssets\Materials\PaintLabel_Mat.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Materials\PaintLabel_Mat.mat.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Materials\PaintLabel_Mat.mat.meta
+      projectPath: Assets\HDRP\ExampleAssets\Materials\PaintLabel_Mat.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Materials\Plastic_Black_Mat.mat
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Materials\Plastic_Black_Mat.mat
+      projectPath: Assets\HDRP\ExampleAssets\Materials\Plastic_Black_Mat.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Materials\Plastic_Black_Mat.mat.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Materials\Plastic_Black_Mat.mat.meta
+      projectPath: Assets\HDRP\ExampleAssets\Materials\Plastic_Black_Mat.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Materials\Plastic_Gray_Mat.mat
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Materials\Plastic_Gray_Mat.mat
+      projectPath: Assets\HDRP\ExampleAssets\Materials\Plastic_Gray_Mat.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Materials\Plastic_Gray_Mat.mat.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Materials\Plastic_Gray_Mat.mat.meta
+      projectPath: Assets\HDRP\ExampleAssets\Materials\Plastic_Gray_Mat.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Materials\Plastic_Ridges_Mat.mat
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Materials\Plastic_Ridges_Mat.mat
+      projectPath: Assets\HDRP\ExampleAssets\Materials\Plastic_Ridges_Mat.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Materials\Plastic_Ridges_Mat.mat.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Materials\Plastic_Ridges_Mat.mat.meta
+      projectPath: Assets\HDRP\ExampleAssets\Materials\Plastic_Ridges_Mat.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Materials\Plastic_Rough_Mat.mat
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Materials\Plastic_Rough_Mat.mat
+      projectPath: Assets\HDRP\ExampleAssets\Materials\Plastic_Rough_Mat.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Materials\Plastic_Rough_Mat.mat.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Materials\Plastic_Rough_Mat.mat.meta
+      projectPath: Assets\HDRP\ExampleAssets\Materials\Plastic_Rough_Mat.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Materials\Plastic_Transparent.mat
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Materials\Plastic_Transparent.mat
+      projectPath: Assets\HDRP\ExampleAssets\Materials\Plastic_Transparent.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Materials\Plastic_Transparent.mat.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Materials\Plastic_Transparent.mat.meta
+      projectPath: Assets\HDRP\ExampleAssets\Materials\Plastic_Transparent.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Materials\Plastic_White_Mat.mat
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Materials\Plastic_White_Mat.mat
+      projectPath: Assets\HDRP\ExampleAssets\Materials\Plastic_White_Mat.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Materials\Plastic_White_Mat.mat.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Materials\Plastic_White_Mat.mat.meta
+      projectPath: Assets\HDRP\ExampleAssets\Materials\Plastic_White_Mat.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Materials\Plastic_Yellow_Mat.mat
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Materials\Plastic_Yellow_Mat.mat
+      projectPath: Assets\HDRP\ExampleAssets\Materials\Plastic_Yellow_Mat.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Materials\Plastic_Yellow_Mat.mat.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Materials\Plastic_Yellow_Mat.mat.meta
+      projectPath: Assets\HDRP\ExampleAssets\Materials\Plastic_Yellow_Mat.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Materials\Strap_Mat.mat
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Materials\Strap_Mat.mat
+      projectPath: Assets\HDRP\ExampleAssets\Materials\Strap_Mat.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Materials\Strap_Mat.mat.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Materials\Strap_Mat.mat.meta
+      projectPath: Assets\HDRP\ExampleAssets\Materials\Strap_Mat.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Materials\Stud_Mat.mat
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Materials\Stud_Mat.mat
+      projectPath: Assets\HDRP\ExampleAssets\Materials\Stud_Mat.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Materials\Stud_Mat.mat.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Materials\Stud_Mat.mat.meta
+      projectPath: Assets\HDRP\ExampleAssets\Materials\Stud_Mat.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Models.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Models.meta
+      projectPath: Assets\HDRP\ExampleAssets\Models.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Models\Brush.fbx
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Models\Brush.fbx
+      projectPath: Assets\HDRP\ExampleAssets\Models\Brush.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Models\Brush.fbx.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Models\Brush.fbx.meta
+      projectPath: Assets\HDRP\ExampleAssets\Models\Brush.fbx.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Models\ConstructionLight.fbx
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Models\ConstructionLight.fbx
+      projectPath: Assets\HDRP\ExampleAssets\Models\ConstructionLight.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Models\ConstructionLight.fbx.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Models\ConstructionLight.fbx.meta
+      projectPath: Assets\HDRP\ExampleAssets\Models\ConstructionLight.fbx.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Models\ConstructionLight_Low.fbx
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Models\ConstructionLight_Low.fbx
+      projectPath: Assets\HDRP\ExampleAssets\Models\ConstructionLight_Low.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Models\ConstructionLight_Low.fbx.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Models\ConstructionLight_Low.fbx.meta
+      projectPath: Assets\HDRP\ExampleAssets\Models\ConstructionLight_Low.fbx.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Models\Hammer.fbx
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Models\Hammer.fbx
+      projectPath: Assets\HDRP\ExampleAssets\Models\Hammer.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Models\Hammer.fbx.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Models\Hammer.fbx.meta
+      projectPath: Assets\HDRP\ExampleAssets\Models\Hammer.fbx.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Models\Jigsaw.fbx
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Models\Jigsaw.fbx
+      projectPath: Assets\HDRP\ExampleAssets\Models\Jigsaw.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Models\Jigsaw.fbx.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Models\Jigsaw.fbx.meta
+      projectPath: Assets\HDRP\ExampleAssets\Models\Jigsaw.fbx.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Models\MagneticLevel.fbx
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Models\MagneticLevel.fbx
+      projectPath: Assets\HDRP\ExampleAssets\Models\MagneticLevel.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Models\MagneticLevel.fbx.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Models\MagneticLevel.fbx.meta
+      projectPath: Assets\HDRP\ExampleAssets\Models\MagneticLevel.fbx.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Models\PaintBucket.fbx
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Models\PaintBucket.fbx
+      projectPath: Assets\HDRP\ExampleAssets\Models\PaintBucket.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Models\PaintBucket.fbx.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Models\PaintBucket.fbx.meta
+      projectPath: Assets\HDRP\ExampleAssets\Models\PaintBucket.fbx.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Models\SafetyGoggles.fbx
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Models\SafetyGoggles.fbx
+      projectPath: Assets\HDRP\ExampleAssets\Models\SafetyGoggles.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Models\SafetyGoggles.fbx.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Models\SafetyGoggles.fbx.meta
+      projectPath: Assets\HDRP\ExampleAssets\Models\SafetyGoggles.fbx.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Models\SafetyHat.fbx
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Models\SafetyHat.fbx
+      projectPath: Assets\HDRP\ExampleAssets\Models\SafetyHat.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Models\SafetyHat.fbx.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Models\SafetyHat.fbx.meta
+      projectPath: Assets\HDRP\ExampleAssets\Models\SafetyHat.fbx.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Models\Stud.fbx
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Models\Stud.fbx
+      projectPath: Assets\HDRP\ExampleAssets\Models\Stud.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Models\Stud.fbx.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Models\Stud.fbx.meta
+      projectPath: Assets\HDRP\ExampleAssets\Models\Stud.fbx.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Models\Workbench.fbx
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Models\Workbench.fbx
+      projectPath: Assets\HDRP\ExampleAssets\Models\Workbench.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Models\Workbench.fbx.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Models\Workbench.fbx.meta
+      projectPath: Assets\HDRP\ExampleAssets\Models\Workbench.fbx.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Models\Workbench_Low.fbx
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Models\Workbench_Low.fbx
+      projectPath: Assets\HDRP\ExampleAssets\Models\Workbench_Low.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Models\Workbench_Low.fbx.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Models\Workbench_Low.fbx.meta
+      projectPath: Assets\HDRP\ExampleAssets\Models\Workbench_Low.fbx.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Models\Workshop_Set.fbx
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Models\Workshop_Set.fbx
+      projectPath: Assets\HDRP\ExampleAssets\Models\Workshop_Set.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Models\Workshop_Set.fbx.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Models\Workshop_Set.fbx.meta
+      projectPath: Assets\HDRP\ExampleAssets\Models\Workshop_Set.fbx.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Prefabs.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Prefabs.meta
+      projectPath: Assets\HDRP\ExampleAssets\Prefabs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Prefabs\Props.prefab
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Prefabs\Props.prefab
+      projectPath: Assets\HDRP\ExampleAssets\Prefabs\Props.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Prefabs\Props.prefab.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Prefabs\Props.prefab.meta
+      projectPath: Assets\HDRP\ExampleAssets\Prefabs\Props.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Prefabs\Workshop Set.prefab
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Prefabs\Workshop
+        Set.prefab
+      projectPath: Assets\HDRP\ExampleAssets\Prefabs\Workshop Set.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Prefabs\Workshop Set.prefab.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Prefabs\Workshop
+        Set.prefab.meta
+      projectPath: Assets\HDRP\ExampleAssets\Prefabs\Workshop Set.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Textures.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Textures.meta
+      projectPath: Assets\HDRP\ExampleAssets\Textures.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Textures\Concrete.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Textures\Concrete.meta
+      projectPath: Assets\HDRP\ExampleAssets\Textures\Concrete.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Textures\Concrete\Ground_Albedo.tif
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Textures\Concrete\Ground_Albedo.tif
+      projectPath: Assets\HDRP\ExampleAssets\Textures\Concrete\Ground_Albedo.tif
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Textures\Concrete\Ground_Albedo.tif.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Textures\Concrete\Ground_Albedo.tif.meta
+      projectPath: Assets\HDRP\ExampleAssets\Textures\Concrete\Ground_Albedo.tif.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Textures\Concrete\Ground_MetallicOcculusionSmoothness.tif
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Textures\Concrete\Ground_MetallicOcculusionSmoothness.tif
+      projectPath: Assets\HDRP\ExampleAssets\Textures\Concrete\Ground_MetallicOcculusionSmoothness.tif
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Textures\Concrete\Ground_MetallicOcculusionSmoothness.tif.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Textures\Concrete\Ground_MetallicOcculusionSmoothness.tif.meta
+      projectPath: Assets\HDRP\ExampleAssets\Textures\Concrete\Ground_MetallicOcculusionSmoothness.tif.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Textures\Concrete\Ground_Normal.tif
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Textures\Concrete\Ground_Normal.tif
+      projectPath: Assets\HDRP\ExampleAssets\Textures\Concrete\Ground_Normal.tif
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Textures\Concrete\Ground_Normal.tif.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Textures\Concrete\Ground_Normal.tif.meta
+      projectPath: Assets\HDRP\ExampleAssets\Textures\Concrete\Ground_Normal.tif.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Textures\Drywall.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Textures\Drywall.meta
+      projectPath: Assets\HDRP\ExampleAssets\Textures\Drywall.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Textures\Drywall\DrywallPainted_Albedo.tif
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Textures\Drywall\DrywallPainted_Albedo.tif
+      projectPath: Assets\HDRP\ExampleAssets\Textures\Drywall\DrywallPainted_Albedo.tif
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Textures\Drywall\DrywallPainted_Albedo.tif.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Textures\Drywall\DrywallPainted_Albedo.tif.meta
+      projectPath: Assets\HDRP\ExampleAssets\Textures\Drywall\DrywallPainted_Albedo.tif.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Textures\Drywall\DrywallPainted_MetallicSmootheness.tif
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Textures\Drywall\DrywallPainted_MetallicSmootheness.tif
+      projectPath: Assets\HDRP\ExampleAssets\Textures\Drywall\DrywallPainted_MetallicSmootheness.tif
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Textures\Drywall\DrywallPainted_MetallicSmootheness.tif.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Textures\Drywall\DrywallPainted_MetallicSmootheness.tif.meta
+      projectPath: Assets\HDRP\ExampleAssets\Textures\Drywall\DrywallPainted_MetallicSmootheness.tif.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Textures\Drywall\DrywallPainted_Normal.tif
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Textures\Drywall\DrywallPainted_Normal.tif
+      projectPath: Assets\HDRP\ExampleAssets\Textures\Drywall\DrywallPainted_Normal.tif
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Textures\Drywall\DrywallPainted_Normal.tif.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Textures\Drywall\DrywallPainted_Normal.tif.meta
+      projectPath: Assets\HDRP\ExampleAssets\Textures\Drywall\DrywallPainted_Normal.tif.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Textures\Drywall\Drywall_Albedo.tif
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Textures\Drywall\Drywall_Albedo.tif
+      projectPath: Assets\HDRP\ExampleAssets\Textures\Drywall\Drywall_Albedo.tif
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Textures\Drywall\Drywall_Albedo.tif.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Textures\Drywall\Drywall_Albedo.tif.meta
+      projectPath: Assets\HDRP\ExampleAssets\Textures\Drywall\Drywall_Albedo.tif.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Textures\Drywall\Drywall_MetallicSmoothness.tif
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Textures\Drywall\Drywall_MetallicSmoothness.tif
+      projectPath: Assets\HDRP\ExampleAssets\Textures\Drywall\Drywall_MetallicSmoothness.tif
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Textures\Drywall\Drywall_MetallicSmoothness.tif.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Textures\Drywall\Drywall_MetallicSmoothness.tif.meta
+      projectPath: Assets\HDRP\ExampleAssets\Textures\Drywall\Drywall_MetallicSmoothness.tif.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Textures\Drywall\Drywall_Normal.tif
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Textures\Drywall\Drywall_Normal.tif
+      projectPath: Assets\HDRP\ExampleAssets\Textures\Drywall\Drywall_Normal.tif
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Textures\Drywall\Drywall_Normal.tif.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Textures\Drywall\Drywall_Normal.tif.meta
+      projectPath: Assets\HDRP\ExampleAssets\Textures\Drywall\Drywall_Normal.tif.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Textures\Light_Cookie.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Textures\Light_Cookie.meta
+      projectPath: Assets\HDRP\ExampleAssets\Textures\Light_Cookie.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Textures\Light_Cookie\Spotlight_Cookie.tif
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Textures\Light_Cookie\Spotlight_Cookie.tif
+      projectPath: Assets\HDRP\ExampleAssets\Textures\Light_Cookie\Spotlight_Cookie.tif
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Textures\Light_Cookie\Spotlight_Cookie.tif.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Textures\Light_Cookie\Spotlight_Cookie.tif.meta
+      projectPath: Assets\HDRP\ExampleAssets\Textures\Light_Cookie\Spotlight_Cookie.tif.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Textures\Metal.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Textures\Metal.meta
+      projectPath: Assets\HDRP\ExampleAssets\Textures\Metal.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Textures\Metal\Metal_Albedo.tif
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Textures\Metal\Metal_Albedo.tif
+      projectPath: Assets\HDRP\ExampleAssets\Textures\Metal\Metal_Albedo.tif
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Textures\Metal\Metal_Albedo.tif.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Textures\Metal\Metal_Albedo.tif.meta
+      projectPath: Assets\HDRP\ExampleAssets\Textures\Metal\Metal_Albedo.tif.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Textures\Metal\Metal_MetallicSmoothness.tif
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Textures\Metal\Metal_MetallicSmoothness.tif
+      projectPath: Assets\HDRP\ExampleAssets\Textures\Metal\Metal_MetallicSmoothness.tif
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Textures\Metal\Metal_MetallicSmoothness.tif.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Textures\Metal\Metal_MetallicSmoothness.tif.meta
+      projectPath: Assets\HDRP\ExampleAssets\Textures\Metal\Metal_MetallicSmoothness.tif.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Textures\Metal\Metal_Normal.tif
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Textures\Metal\Metal_Normal.tif
+      projectPath: Assets\HDRP\ExampleAssets\Textures\Metal\Metal_Normal.tif
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Textures\Metal\Metal_Normal.tif.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Textures\Metal\Metal_Normal.tif.meta
+      projectPath: Assets\HDRP\ExampleAssets\Textures\Metal\Metal_Normal.tif.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Textures\Plastic.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Textures\Plastic.meta
+      projectPath: Assets\HDRP\ExampleAssets\Textures\Plastic.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Textures\Plastic\Elastic_MetallicOcculusionSmoothness.tif
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Textures\Plastic\Elastic_MetallicOcculusionSmoothness.tif
+      projectPath: Assets\HDRP\ExampleAssets\Textures\Plastic\Elastic_MetallicOcculusionSmoothness.tif
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Textures\Plastic\Elastic_MetallicOcculusionSmoothness.tif.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Textures\Plastic\Elastic_MetallicOcculusionSmoothness.tif.meta
+      projectPath: Assets\HDRP\ExampleAssets\Textures\Plastic\Elastic_MetallicOcculusionSmoothness.tif.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Textures\Plastic\Elastic_Normal.tif
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Textures\Plastic\Elastic_Normal.tif
+      projectPath: Assets\HDRP\ExampleAssets\Textures\Plastic\Elastic_Normal.tif
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Textures\Plastic\Elastic_Normal.tif.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Textures\Plastic\Elastic_Normal.tif.meta
+      projectPath: Assets\HDRP\ExampleAssets\Textures\Plastic\Elastic_Normal.tif.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Textures\Plastic\PlasticRidges_Albedo.tif
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Textures\Plastic\PlasticRidges_Albedo.tif
+      projectPath: Assets\HDRP\ExampleAssets\Textures\Plastic\PlasticRidges_Albedo.tif
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Textures\Plastic\PlasticRidges_Albedo.tif.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Textures\Plastic\PlasticRidges_Albedo.tif.meta
+      projectPath: Assets\HDRP\ExampleAssets\Textures\Plastic\PlasticRidges_Albedo.tif.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Textures\Plastic\PlasticRidges_MetallicOcculusionSmoothness.tif
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Textures\Plastic\PlasticRidges_MetallicOcculusionSmoothness.tif
+      projectPath: Assets\HDRP\ExampleAssets\Textures\Plastic\PlasticRidges_MetallicOcculusionSmoothness.tif
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Textures\Plastic\PlasticRidges_MetallicOcculusionSmoothness.tif.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Textures\Plastic\PlasticRidges_MetallicOcculusionSmoothness.tif.meta
+      projectPath: Assets\HDRP\ExampleAssets\Textures\Plastic\PlasticRidges_MetallicOcculusionSmoothness.tif.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Textures\Plastic\PlasticRidges_Normal.tif
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Textures\Plastic\PlasticRidges_Normal.tif
+      projectPath: Assets\HDRP\ExampleAssets\Textures\Plastic\PlasticRidges_Normal.tif
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Textures\Plastic\PlasticRidges_Normal.tif.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Textures\Plastic\PlasticRidges_Normal.tif.meta
+      projectPath: Assets\HDRP\ExampleAssets\Textures\Plastic\PlasticRidges_Normal.tif.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Textures\Plastic\PlasticRough_Albedo.tif
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Textures\Plastic\PlasticRough_Albedo.tif
+      projectPath: Assets\HDRP\ExampleAssets\Textures\Plastic\PlasticRough_Albedo.tif
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Textures\Plastic\PlasticRough_Albedo.tif.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Textures\Plastic\PlasticRough_Albedo.tif.meta
+      projectPath: Assets\HDRP\ExampleAssets\Textures\Plastic\PlasticRough_Albedo.tif.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Textures\Plastic\PlasticRough_MetallicOcculusionSmoothness.tif
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Textures\Plastic\PlasticRough_MetallicOcculusionSmoothness.tif
+      projectPath: Assets\HDRP\ExampleAssets\Textures\Plastic\PlasticRough_MetallicOcculusionSmoothness.tif
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Textures\Plastic\PlasticRough_MetallicOcculusionSmoothness.tif.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Textures\Plastic\PlasticRough_MetallicOcculusionSmoothness.tif.meta
+      projectPath: Assets\HDRP\ExampleAssets\Textures\Plastic\PlasticRough_MetallicOcculusionSmoothness.tif.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Textures\Plastic\Plastic_Albedo.tif
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Textures\Plastic\Plastic_Albedo.tif
+      projectPath: Assets\HDRP\ExampleAssets\Textures\Plastic\Plastic_Albedo.tif
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Textures\Plastic\Plastic_Albedo.tif.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Textures\Plastic\Plastic_Albedo.tif.meta
+      projectPath: Assets\HDRP\ExampleAssets\Textures\Plastic\Plastic_Albedo.tif.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Textures\Plastic\Plastic_MetallicSmoothness.tif
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Textures\Plastic\Plastic_MetallicSmoothness.tif
+      projectPath: Assets\HDRP\ExampleAssets\Textures\Plastic\Plastic_MetallicSmoothness.tif
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Textures\Plastic\Plastic_MetallicSmoothness.tif.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Textures\Plastic\Plastic_MetallicSmoothness.tif.meta
+      projectPath: Assets\HDRP\ExampleAssets\Textures\Plastic\Plastic_MetallicSmoothness.tif.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Textures\Plastic\Plastic_Normal.tif
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Textures\Plastic\Plastic_Normal.tif
+      projectPath: Assets\HDRP\ExampleAssets\Textures\Plastic\Plastic_Normal.tif
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Textures\Plastic\Plastic_Normal.tif.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Textures\Plastic\Plastic_Normal.tif.meta
+      projectPath: Assets\HDRP\ExampleAssets\Textures\Plastic\Plastic_Normal.tif.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Textures\Props.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Textures\Props.meta
+      projectPath: Assets\HDRP\ExampleAssets\Textures\Props.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Textures\Props\Construction_Light.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Textures\Props\Construction_Light.meta
+      projectPath: Assets\HDRP\ExampleAssets\Textures\Props\Construction_Light.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Textures\Props\Construction_Light\ConstructionLight_Albedo.tif
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Textures\Props\Construction_Light\ConstructionLight_Albedo.tif
+      projectPath: Assets\HDRP\ExampleAssets\Textures\Props\Construction_Light\ConstructionLight_Albedo.tif
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Textures\Props\Construction_Light\ConstructionLight_Albedo.tif.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Textures\Props\Construction_Light\ConstructionLight_Albedo.tif.meta
+      projectPath: Assets\HDRP\ExampleAssets\Textures\Props\Construction_Light\ConstructionLight_Albedo.tif.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Textures\Props\Construction_Light\ConstructionLight_MetallicOcculusionSmoothness.tif
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Textures\Props\Construction_Light\ConstructionLight_MetallicOcculusionSmoothness.tif
+      projectPath: Assets\HDRP\ExampleAssets\Textures\Props\Construction_Light\ConstructionLight_MetallicOcculusionSmoothness.tif
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Textures\Props\Construction_Light\ConstructionLight_MetallicOcculusionSmoothness.tif.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Textures\Props\Construction_Light\ConstructionLight_MetallicOcculusionSmoothness.tif.meta
+      projectPath: Assets\HDRP\ExampleAssets\Textures\Props\Construction_Light\ConstructionLight_MetallicOcculusionSmoothness.tif.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Textures\Props\Hammer.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Textures\Props\Hammer.meta
+      projectPath: Assets\HDRP\ExampleAssets\Textures\Props\Hammer.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Textures\Props\Hammer\Hammer_Albedo.tif
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Textures\Props\Hammer\Hammer_Albedo.tif
+      projectPath: Assets\HDRP\ExampleAssets\Textures\Props\Hammer\Hammer_Albedo.tif
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Textures\Props\Hammer\Hammer_Albedo.tif.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Textures\Props\Hammer\Hammer_Albedo.tif.meta
+      projectPath: Assets\HDRP\ExampleAssets\Textures\Props\Hammer\Hammer_Albedo.tif.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Textures\Props\Hammer\Hammer_MetallicOcculusionSmoothness.tif
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Textures\Props\Hammer\Hammer_MetallicOcculusionSmoothness.tif
+      projectPath: Assets\HDRP\ExampleAssets\Textures\Props\Hammer\Hammer_MetallicOcculusionSmoothness.tif
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Textures\Props\Hammer\Hammer_MetallicOcculusionSmoothness.tif.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Textures\Props\Hammer\Hammer_MetallicOcculusionSmoothness.tif.meta
+      projectPath: Assets\HDRP\ExampleAssets\Textures\Props\Hammer\Hammer_MetallicOcculusionSmoothness.tif.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Textures\Props\Hammer\Hammer_Normal.tif
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Textures\Props\Hammer\Hammer_Normal.tif
+      projectPath: Assets\HDRP\ExampleAssets\Textures\Props\Hammer\Hammer_Normal.tif
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Textures\Props\Hammer\Hammer_Normal.tif.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Textures\Props\Hammer\Hammer_Normal.tif.meta
+      projectPath: Assets\HDRP\ExampleAssets\Textures\Props\Hammer\Hammer_Normal.tif.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Textures\Props\HardHat.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Textures\Props\HardHat.meta
+      projectPath: Assets\HDRP\ExampleAssets\Textures\Props\HardHat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Textures\Props\HardHat\SafetyHat_Albedo.tif
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Textures\Props\HardHat\SafetyHat_Albedo.tif
+      projectPath: Assets\HDRP\ExampleAssets\Textures\Props\HardHat\SafetyHat_Albedo.tif
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Textures\Props\HardHat\SafetyHat_Albedo.tif.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Textures\Props\HardHat\SafetyHat_Albedo.tif.meta
+      projectPath: Assets\HDRP\ExampleAssets\Textures\Props\HardHat\SafetyHat_Albedo.tif.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Textures\Props\HardHat\SafetyHat_MetallicOcculusionSmoothness.tif
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Textures\Props\HardHat\SafetyHat_MetallicOcculusionSmoothness.tif
+      projectPath: Assets\HDRP\ExampleAssets\Textures\Props\HardHat\SafetyHat_MetallicOcculusionSmoothness.tif
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Textures\Props\HardHat\SafetyHat_MetallicOcculusionSmoothness.tif.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Textures\Props\HardHat\SafetyHat_MetallicOcculusionSmoothness.tif.meta
+      projectPath: Assets\HDRP\ExampleAssets\Textures\Props\HardHat\SafetyHat_MetallicOcculusionSmoothness.tif.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Textures\Props\HardHat\SafetyHat_Normal.tif
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Textures\Props\HardHat\SafetyHat_Normal.tif
+      projectPath: Assets\HDRP\ExampleAssets\Textures\Props\HardHat\SafetyHat_Normal.tif
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Textures\Props\HardHat\SafetyHat_Normal.tif.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Textures\Props\HardHat\SafetyHat_Normal.tif.meta
+      projectPath: Assets\HDRP\ExampleAssets\Textures\Props\HardHat\SafetyHat_Normal.tif.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Textures\Props\Jigsaw.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Textures\Props\Jigsaw.meta
+      projectPath: Assets\HDRP\ExampleAssets\Textures\Props\Jigsaw.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Textures\Props\Jigsaw\Jigsaw_Albedo.tif
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Textures\Props\Jigsaw\Jigsaw_Albedo.tif
+      projectPath: Assets\HDRP\ExampleAssets\Textures\Props\Jigsaw\Jigsaw_Albedo.tif
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Textures\Props\Jigsaw\Jigsaw_Albedo.tif.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Textures\Props\Jigsaw\Jigsaw_Albedo.tif.meta
+      projectPath: Assets\HDRP\ExampleAssets\Textures\Props\Jigsaw\Jigsaw_Albedo.tif.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Textures\Props\Jigsaw\Jigsaw_MetallicOcculusionSmoothness.tif
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Textures\Props\Jigsaw\Jigsaw_MetallicOcculusionSmoothness.tif
+      projectPath: Assets\HDRP\ExampleAssets\Textures\Props\Jigsaw\Jigsaw_MetallicOcculusionSmoothness.tif
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Textures\Props\Jigsaw\Jigsaw_MetallicOcculusionSmoothness.tif.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Textures\Props\Jigsaw\Jigsaw_MetallicOcculusionSmoothness.tif.meta
+      projectPath: Assets\HDRP\ExampleAssets\Textures\Props\Jigsaw\Jigsaw_MetallicOcculusionSmoothness.tif.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Textures\Props\Jigsaw\Jigsaw_Normal.tif
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Textures\Props\Jigsaw\Jigsaw_Normal.tif
+      projectPath: Assets\HDRP\ExampleAssets\Textures\Props\Jigsaw\Jigsaw_Normal.tif
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Textures\Props\Jigsaw\Jigsaw_Normal.tif.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Textures\Props\Jigsaw\Jigsaw_Normal.tif.meta
+      projectPath: Assets\HDRP\ExampleAssets\Textures\Props\Jigsaw\Jigsaw_Normal.tif.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Textures\Props\Paint.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Textures\Props\Paint.meta
+      projectPath: Assets\HDRP\ExampleAssets\Textures\Props\Paint.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Textures\Props\Paint\Paint1G_Albedo.tif
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Textures\Props\Paint\Paint1G_Albedo.tif
+      projectPath: Assets\HDRP\ExampleAssets\Textures\Props\Paint\Paint1G_Albedo.tif
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Textures\Props\Paint\Paint1G_Albedo.tif.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Textures\Props\Paint\Paint1G_Albedo.tif.meta
+      projectPath: Assets\HDRP\ExampleAssets\Textures\Props\Paint\Paint1G_Albedo.tif.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Textures\Props\Paint\Paint1G_MetallicOcculusionSmoothness.tif
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Textures\Props\Paint\Paint1G_MetallicOcculusionSmoothness.tif
+      projectPath: Assets\HDRP\ExampleAssets\Textures\Props\Paint\Paint1G_MetallicOcculusionSmoothness.tif
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Textures\Props\Paint\Paint1G_MetallicOcculusionSmoothness.tif.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Textures\Props\Paint\Paint1G_MetallicOcculusionSmoothness.tif.meta
+      projectPath: Assets\HDRP\ExampleAssets\Textures\Props\Paint\Paint1G_MetallicOcculusionSmoothness.tif.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Textures\Props\Paint\Paint1G_Normal.tif
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Textures\Props\Paint\Paint1G_Normal.tif
+      projectPath: Assets\HDRP\ExampleAssets\Textures\Props\Paint\Paint1G_Normal.tif
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Textures\Props\Paint\Paint1G_Normal.tif.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Textures\Props\Paint\Paint1G_Normal.tif.meta
+      projectPath: Assets\HDRP\ExampleAssets\Textures\Props\Paint\Paint1G_Normal.tif.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Textures\Props\Paint\Paint5G_Albedo.tif
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Textures\Props\Paint\Paint5G_Albedo.tif
+      projectPath: Assets\HDRP\ExampleAssets\Textures\Props\Paint\Paint5G_Albedo.tif
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Textures\Props\Paint\Paint5G_Albedo.tif.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Textures\Props\Paint\Paint5G_Albedo.tif.meta
+      projectPath: Assets\HDRP\ExampleAssets\Textures\Props\Paint\Paint5G_Albedo.tif.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Textures\Props\Paint\Paintbrush_Albedo.tif
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Textures\Props\Paint\Paintbrush_Albedo.tif
+      projectPath: Assets\HDRP\ExampleAssets\Textures\Props\Paint\Paintbrush_Albedo.tif
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Textures\Props\Paint\Paintbrush_Albedo.tif.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Textures\Props\Paint\Paintbrush_Albedo.tif.meta
+      projectPath: Assets\HDRP\ExampleAssets\Textures\Props\Paint\Paintbrush_Albedo.tif.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Textures\Props\Paint\Paintbrush_MetallicOcculusionSmoothness.tif
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Textures\Props\Paint\Paintbrush_MetallicOcculusionSmoothness.tif
+      projectPath: Assets\HDRP\ExampleAssets\Textures\Props\Paint\Paintbrush_MetallicOcculusionSmoothness.tif
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Textures\Props\Paint\Paintbrush_MetallicOcculusionSmoothness.tif.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Textures\Props\Paint\Paintbrush_MetallicOcculusionSmoothness.tif.meta
+      projectPath: Assets\HDRP\ExampleAssets\Textures\Props\Paint\Paintbrush_MetallicOcculusionSmoothness.tif.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Textures\Props\Paint\Paintbrush_Normal.tif
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Textures\Props\Paint\Paintbrush_Normal.tif
+      projectPath: Assets\HDRP\ExampleAssets\Textures\Props\Paint\Paintbrush_Normal.tif
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Textures\Props\Paint\Paintbrush_Normal.tif.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Textures\Props\Paint\Paintbrush_Normal.tif.meta
+      projectPath: Assets\HDRP\ExampleAssets\Textures\Props\Paint\Paintbrush_Normal.tif.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Textures\Wood.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Textures\Wood.meta
+      projectPath: Assets\HDRP\ExampleAssets\Textures\Wood.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Textures\Wood\OBS_Albedo.tif
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Textures\Wood\OBS_Albedo.tif
+      projectPath: Assets\HDRP\ExampleAssets\Textures\Wood\OBS_Albedo.tif
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Textures\Wood\OBS_Albedo.tif.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Textures\Wood\OBS_Albedo.tif.meta
+      projectPath: Assets\HDRP\ExampleAssets\Textures\Wood\OBS_Albedo.tif.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Textures\Wood\OBS_MetallicOcculusionSmoothness.tif
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Textures\Wood\OBS_MetallicOcculusionSmoothness.tif
+      projectPath: Assets\HDRP\ExampleAssets\Textures\Wood\OBS_MetallicOcculusionSmoothness.tif
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Textures\Wood\OBS_MetallicOcculusionSmoothness.tif.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Textures\Wood\OBS_MetallicOcculusionSmoothness.tif.meta
+      projectPath: Assets\HDRP\ExampleAssets\Textures\Wood\OBS_MetallicOcculusionSmoothness.tif.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Textures\Wood\OBS_Normal.tif
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Textures\Wood\OBS_Normal.tif
+      projectPath: Assets\HDRP\ExampleAssets\Textures\Wood\OBS_Normal.tif
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Textures\Wood\OBS_Normal.tif.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Textures\Wood\OBS_Normal.tif.meta
+      projectPath: Assets\HDRP\ExampleAssets\Textures\Wood\OBS_Normal.tif.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Textures\Wood\Plywood_Albedo.tif
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Textures\Wood\Plywood_Albedo.tif
+      projectPath: Assets\HDRP\ExampleAssets\Textures\Wood\Plywood_Albedo.tif
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Textures\Wood\Plywood_Albedo.tif.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Textures\Wood\Plywood_Albedo.tif.meta
+      projectPath: Assets\HDRP\ExampleAssets\Textures\Wood\Plywood_Albedo.tif.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Textures\Wood\Plywood_MetallicOcculusionSmoothness.tif
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Textures\Wood\Plywood_MetallicOcculusionSmoothness.tif
+      projectPath: Assets\HDRP\ExampleAssets\Textures\Wood\Plywood_MetallicOcculusionSmoothness.tif
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Textures\Wood\Plywood_MetallicOcculusionSmoothness.tif.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Textures\Wood\Plywood_MetallicOcculusionSmoothness.tif.meta
+      projectPath: Assets\HDRP\ExampleAssets\Textures\Wood\Plywood_MetallicOcculusionSmoothness.tif.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Textures\Wood\Plywood_Normal.tif
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Textures\Wood\Plywood_Normal.tif
+      projectPath: Assets\HDRP\ExampleAssets\Textures\Wood\Plywood_Normal.tif
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\ExampleAssets\Textures\Wood\Plywood_Normal.tif.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\ExampleAssets\Textures\Wood\Plywood_Normal.tif.meta
+      projectPath: Assets\HDRP\ExampleAssets\Textures\Wood\Plywood_Normal.tif.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\HDRPDefaultResources.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\HDRPDefaultResources.meta
+      projectPath: Assets\HDRP\HDRPDefaultResources.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\HDRPDefaultResources\DefaultPostprocessingSettings.asset
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\HDRPDefaultResources\DefaultPostprocessingSettings.asset
+      projectPath: Assets\HDRP\HDRPDefaultResources\DefaultPostprocessingSettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\HDRPDefaultResources\DefaultPostprocessingSettings.asset.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\HDRPDefaultResources\DefaultPostprocessingSettings.asset.meta
+      projectPath: Assets\HDRP\HDRPDefaultResources\DefaultPostprocessingSettings.asset.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\HDRPDefaultResources\DefaultRenderingSettings.asset
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\HDRPDefaultResources\DefaultRenderingSettings.asset
+      projectPath: Assets\HDRP\HDRPDefaultResources\DefaultRenderingSettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\HDRPDefaultResources\DefaultRenderingSettings.asset.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\HDRPDefaultResources\DefaultRenderingSettings.asset.meta
+      projectPath: Assets\HDRP\HDRPDefaultResources\DefaultRenderingSettings.asset.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\HDRPDefaultResources\DefaultSceneRoot.asset
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\HDRPDefaultResources\DefaultSceneRoot.asset
+      projectPath: Assets\HDRP\HDRPDefaultResources\DefaultSceneRoot.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\HDRPDefaultResources\DefaultSceneRoot.asset.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\HDRPDefaultResources\DefaultSceneRoot.asset.meta
+      projectPath: Assets\HDRP\HDRPDefaultResources\DefaultSceneRoot.asset.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\Presets.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\Presets.meta
+      projectPath: Assets\HDRP\Presets.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\Presets\AudioCompressedInMemory.preset
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\Presets\AudioCompressedInMemory.preset
+      projectPath: Assets\HDRP\Presets\AudioCompressedInMemory.preset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\Presets\AudioCompressedInMemory.preset.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\Presets\AudioCompressedInMemory.preset.meta
+      projectPath: Assets\HDRP\Presets\AudioCompressedInMemory.preset.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\Presets\AudioStreaming.preset
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\Presets\AudioStreaming.preset
+      projectPath: Assets\HDRP\Presets\AudioStreaming.preset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\Presets\AudioStreaming.preset.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\Presets\AudioStreaming.preset.meta
+      projectPath: Assets\HDRP\Presets\AudioStreaming.preset.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\Presets\Defaults.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\Presets\Defaults.meta
+      projectPath: Assets\HDRP\Presets\Defaults.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\Presets\Defaults\AlbedoTexture_Default.preset
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\Presets\Defaults\AlbedoTexture_Default.preset
+      projectPath: Assets\HDRP\Presets\Defaults\AlbedoTexture_Default.preset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\Presets\Defaults\AlbedoTexture_Default.preset.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\Presets\Defaults\AlbedoTexture_Default.preset.meta
+      projectPath: Assets\HDRP\Presets\Defaults\AlbedoTexture_Default.preset.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\Presets\Defaults\AudioDecompressOnLoad_Default.preset
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\Presets\Defaults\AudioDecompressOnLoad_Default.preset
+      projectPath: Assets\HDRP\Presets\Defaults\AudioDecompressOnLoad_Default.preset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\Presets\Defaults\AudioDecompressOnLoad_Default.preset.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\Presets\Defaults\AudioDecompressOnLoad_Default.preset.meta
+      projectPath: Assets\HDRP\Presets\Defaults\AudioDecompressOnLoad_Default.preset.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\Presets\Defaults\DirectionalLight_Default.preset
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\Presets\Defaults\DirectionalLight_Default.preset
+      projectPath: Assets\HDRP\Presets\Defaults\DirectionalLight_Default.preset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\Presets\Defaults\DirectionalLight_Default.preset.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\Presets\Defaults\DirectionalLight_Default.preset.meta
+      projectPath: Assets\HDRP\Presets\Defaults\DirectionalLight_Default.preset.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\Presets\Defaults\SSSSettings_Default.preset
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\Presets\Defaults\SSSSettings_Default.preset
+      projectPath: Assets\HDRP\Presets\Defaults\SSSSettings_Default.preset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\Presets\Defaults\SSSSettings_Default.preset.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\Presets\Defaults\SSSSettings_Default.preset.meta
+      projectPath: Assets\HDRP\Presets\Defaults\SSSSettings_Default.preset.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\Presets\HDRTexture.preset
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\Presets\HDRTexture.preset
+      projectPath: Assets\HDRP\Presets\HDRTexture.preset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\Presets\HDRTexture.preset.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\Presets\HDRTexture.preset.meta
+      projectPath: Assets\HDRP\Presets\HDRTexture.preset.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\Presets\NormalTexture.preset
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\Presets\NormalTexture.preset
+      projectPath: Assets\HDRP\Presets\NormalTexture.preset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\Presets\NormalTexture.preset.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\Presets\NormalTexture.preset.meta
+      projectPath: Assets\HDRP\Presets\NormalTexture.preset.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\Presets\UtilityTexture.preset
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\Presets\UtilityTexture.preset
+      projectPath: Assets\HDRP\Presets\UtilityTexture.preset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\Presets\UtilityTexture.preset.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\Presets\UtilityTexture.preset.meta
+      projectPath: Assets\HDRP\Presets\UtilityTexture.preset.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\Readme.asset
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\Readme.asset
+      projectPath: Assets\HDRP\Readme.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\Readme.asset.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\Readme.asset.meta
+      projectPath: Assets\HDRP\Readme.asset.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\Scenes.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\Scenes.meta
+      projectPath: Assets\HDRP\Scenes.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\Scenes\samplescene.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\Scenes\samplescene.meta
+      projectPath: Assets\HDRP\Scenes\samplescene.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\Scenes\samplescene.unity
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\Scenes\samplescene.unity
+      projectPath: Assets\HDRP\Scenes\samplescene.unity
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\Scenes\samplescene.unity.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\Scenes\samplescene.unity.meta
+      projectPath: Assets\HDRP\Scenes\samplescene.unity.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\Scenes\samplescene\LightingData.asset
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\Scenes\samplescene\LightingData.asset
+      projectPath: Assets\HDRP\Scenes\samplescene\LightingData.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\Scenes\samplescene\LightingData.asset.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\Scenes\samplescene\LightingData.asset.meta
+      projectPath: Assets\HDRP\Scenes\samplescene\LightingData.asset.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\Scenes\samplescene\Lightmap-0_comp_dir.png
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\Scenes\samplescene\Lightmap-0_comp_dir.png
+      projectPath: Assets\HDRP\Scenes\samplescene\Lightmap-0_comp_dir.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\Scenes\samplescene\Lightmap-0_comp_dir.png.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\Scenes\samplescene\Lightmap-0_comp_dir.png.meta
+      projectPath: Assets\HDRP\Scenes\samplescene\Lightmap-0_comp_dir.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\Scenes\samplescene\Lightmap-0_comp_light.exr
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\Scenes\samplescene\Lightmap-0_comp_light.exr
+      projectPath: Assets\HDRP\Scenes\samplescene\Lightmap-0_comp_light.exr
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\Scenes\samplescene\Lightmap-0_comp_light.exr.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\Scenes\samplescene\Lightmap-0_comp_light.exr.meta
+      projectPath: Assets\HDRP\Scenes\samplescene\Lightmap-0_comp_light.exr.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\Scenes\samplescene\ReflectionProbe-0.exr
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\Scenes\samplescene\ReflectionProbe-0.exr
+      projectPath: Assets\HDRP\Scenes\samplescene\ReflectionProbe-0.exr
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\Scenes\samplescene\ReflectionProbe-0.exr.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\Scenes\samplescene\ReflectionProbe-0.exr.meta
+      projectPath: Assets\HDRP\Scenes\samplescene\ReflectionProbe-0.exr.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\Scenes\samplescene\ReflectionProbe-1.exr
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\Scenes\samplescene\ReflectionProbe-1.exr
+      projectPath: Assets\HDRP\Scenes\samplescene\ReflectionProbe-1.exr
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\Scenes\samplescene\ReflectionProbe-1.exr.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\Scenes\samplescene\ReflectionProbe-1.exr.meta
+      projectPath: Assets\HDRP\Scenes\samplescene\ReflectionProbe-1.exr.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\Scenes\samplescene\ReflectionProbe-2.exr
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\Scenes\samplescene\ReflectionProbe-2.exr
+      projectPath: Assets\HDRP\Scenes\samplescene\ReflectionProbe-2.exr
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\Scenes\samplescene\ReflectionProbe-2.exr.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\Scenes\samplescene\ReflectionProbe-2.exr.meta
+      projectPath: Assets\HDRP\Scenes\samplescene\ReflectionProbe-2.exr.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\Scripts.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\Scripts.meta
+      projectPath: Assets\HDRP\Scripts.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\Scripts\SimpleCameraController.cs
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\Scripts\SimpleCameraController.cs
+      projectPath: Assets\HDRP\Scripts\SimpleCameraController.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\Scripts\SimpleCameraController.cs.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\Scripts\SimpleCameraController.cs.meta
+      projectPath: Assets\HDRP\Scripts\SimpleCameraController.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\Settings.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\Settings.meta
+      projectPath: Assets\HDRP\Settings.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\Settings\Foliage.asset
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\Settings\Foliage.asset
+      projectPath: Assets\HDRP\Settings\Foliage.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\Settings\Foliage.asset.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\Settings\Foliage.asset.meta
+      projectPath: Assets\HDRP\Settings\Foliage.asset.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\Settings\HDRenderPipelineAsset.asset
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\Settings\HDRenderPipelineAsset.asset
+      projectPath: Assets\HDRP\Settings\HDRenderPipelineAsset.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\Settings\HDRenderPipelineAsset.asset.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\Settings\HDRenderPipelineAsset.asset.meta
+      projectPath: Assets\HDRP\Settings\HDRenderPipelineAsset.asset.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\Settings\SSSSettings_Skin.asset
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\Settings\SSSSettings_Skin.asset
+      projectPath: Assets\HDRP\Settings\SSSSettings_Skin.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\Settings\SSSSettings_Skin.asset.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\Settings\SSSSettings_Skin.asset.meta
+      projectPath: Assets\HDRP\Settings\SSSSettings_Skin.asset.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\Settings\SSSSettings_Skin_Foliage.asset
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\Settings\SSSSettings_Skin_Foliage.asset
+      projectPath: Assets\HDRP\Settings\SSSSettings_Skin_Foliage.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\Settings\SSSSettings_Skin_Foliage.asset.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\Settings\SSSSettings_Skin_Foliage.asset.meta
+      projectPath: Assets\HDRP\Settings\SSSSettings_Skin_Foliage.asset.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\Settings\SSSSettings_Skin_Profile 10.asset
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\Settings\SSSSettings_Skin_Profile
+        10.asset
+      projectPath: Assets\HDRP\Settings\SSSSettings_Skin_Profile 10.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\Settings\SSSSettings_Skin_Profile 10.asset.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\Settings\SSSSettings_Skin_Profile
+        10.asset.meta
+      projectPath: Assets\HDRP\Settings\SSSSettings_Skin_Profile 10.asset.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\Settings\SSSSettings_Skin_Profile 11.asset
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\Settings\SSSSettings_Skin_Profile
+        11.asset
+      projectPath: Assets\HDRP\Settings\SSSSettings_Skin_Profile 11.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\Settings\SSSSettings_Skin_Profile 11.asset.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\Settings\SSSSettings_Skin_Profile
+        11.asset.meta
+      projectPath: Assets\HDRP\Settings\SSSSettings_Skin_Profile 11.asset.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\Settings\SSSSettings_Skin_Profile 12.asset
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\Settings\SSSSettings_Skin_Profile
+        12.asset
+      projectPath: Assets\HDRP\Settings\SSSSettings_Skin_Profile 12.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\Settings\SSSSettings_Skin_Profile 12.asset.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\Settings\SSSSettings_Skin_Profile
+        12.asset.meta
+      projectPath: Assets\HDRP\Settings\SSSSettings_Skin_Profile 12.asset.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\Settings\SSSSettings_Skin_Profile 13.asset
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\Settings\SSSSettings_Skin_Profile
+        13.asset
+      projectPath: Assets\HDRP\Settings\SSSSettings_Skin_Profile 13.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\Settings\SSSSettings_Skin_Profile 13.asset.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\Settings\SSSSettings_Skin_Profile
+        13.asset.meta
+      projectPath: Assets\HDRP\Settings\SSSSettings_Skin_Profile 13.asset.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\Settings\SSSSettings_Skin_Profile 14.asset
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\Settings\SSSSettings_Skin_Profile
+        14.asset
+      projectPath: Assets\HDRP\Settings\SSSSettings_Skin_Profile 14.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\Settings\SSSSettings_Skin_Profile 14.asset.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\Settings\SSSSettings_Skin_Profile
+        14.asset.meta
+      projectPath: Assets\HDRP\Settings\SSSSettings_Skin_Profile 14.asset.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\Settings\SSSSettings_Skin_Profile 15.asset
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\Settings\SSSSettings_Skin_Profile
+        15.asset
+      projectPath: Assets\HDRP\Settings\SSSSettings_Skin_Profile 15.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\Settings\SSSSettings_Skin_Profile 15.asset.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\Settings\SSSSettings_Skin_Profile
+        15.asset.meta
+      projectPath: Assets\HDRP\Settings\SSSSettings_Skin_Profile 15.asset.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\Settings\SSSSettings_Skin_Profile 3.asset
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\Settings\SSSSettings_Skin_Profile
+        3.asset
+      projectPath: Assets\HDRP\Settings\SSSSettings_Skin_Profile 3.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\Settings\SSSSettings_Skin_Profile 3.asset.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\Settings\SSSSettings_Skin_Profile
+        3.asset.meta
+      projectPath: Assets\HDRP\Settings\SSSSettings_Skin_Profile 3.asset.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\Settings\SSSSettings_Skin_Profile 4.asset
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\Settings\SSSSettings_Skin_Profile
+        4.asset
+      projectPath: Assets\HDRP\Settings\SSSSettings_Skin_Profile 4.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\Settings\SSSSettings_Skin_Profile 4.asset.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\Settings\SSSSettings_Skin_Profile
+        4.asset.meta
+      projectPath: Assets\HDRP\Settings\SSSSettings_Skin_Profile 4.asset.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\Settings\SSSSettings_Skin_Profile 5.asset
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\Settings\SSSSettings_Skin_Profile
+        5.asset
+      projectPath: Assets\HDRP\Settings\SSSSettings_Skin_Profile 5.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\Settings\SSSSettings_Skin_Profile 5.asset.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\Settings\SSSSettings_Skin_Profile
+        5.asset.meta
+      projectPath: Assets\HDRP\Settings\SSSSettings_Skin_Profile 5.asset.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\Settings\SSSSettings_Skin_Profile 6.asset
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\Settings\SSSSettings_Skin_Profile
+        6.asset
+      projectPath: Assets\HDRP\Settings\SSSSettings_Skin_Profile 6.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\Settings\SSSSettings_Skin_Profile 6.asset.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\Settings\SSSSettings_Skin_Profile
+        6.asset.meta
+      projectPath: Assets\HDRP\Settings\SSSSettings_Skin_Profile 6.asset.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\Settings\SSSSettings_Skin_Profile 7.asset
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\Settings\SSSSettings_Skin_Profile
+        7.asset
+      projectPath: Assets\HDRP\Settings\SSSSettings_Skin_Profile 7.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\Settings\SSSSettings_Skin_Profile 7.asset.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\Settings\SSSSettings_Skin_Profile
+        7.asset.meta
+      projectPath: Assets\HDRP\Settings\SSSSettings_Skin_Profile 7.asset.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\Settings\SSSSettings_Skin_Profile 8.asset
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\Settings\SSSSettings_Skin_Profile
+        8.asset
+      projectPath: Assets\HDRP\Settings\SSSSettings_Skin_Profile 8.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\Settings\SSSSettings_Skin_Profile 8.asset.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\Settings\SSSSettings_Skin_Profile
+        8.asset.meta
+      projectPath: Assets\HDRP\Settings\SSSSettings_Skin_Profile 8.asset.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\Settings\SSSSettings_Skin_Profile 9.asset
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\Settings\SSSSettings_Skin_Profile
+        9.asset
+      projectPath: Assets\HDRP\Settings\SSSSettings_Skin_Profile 9.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\Settings\SSSSettings_Skin_Profile 9.asset.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\Settings\SSSSettings_Skin_Profile
+        9.asset.meta
+      projectPath: Assets\HDRP\Settings\SSSSettings_Skin_Profile 9.asset.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\Settings\SampleScenePostProcessingSettings.asset
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\Settings\SampleScenePostProcessingSettings.asset
+      projectPath: Assets\HDRP\Settings\SampleScenePostProcessingSettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\Settings\SampleScenePostProcessingSettings.asset.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\Settings\SampleScenePostProcessingSettings.asset.meta
+      projectPath: Assets\HDRP\Settings\SampleScenePostProcessingSettings.asset.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\Settings\SampleSceneRenderingSettings.asset
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\Settings\SampleSceneRenderingSettings.asset
+      projectPath: Assets\HDRP\Settings\SampleSceneRenderingSettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\Settings\SampleSceneRenderingSettings.asset.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\Settings\SampleSceneRenderingSettings.asset.meta
+      projectPath: Assets\HDRP\Settings\SampleSceneRenderingSettings.asset.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\Settings\Skin.asset
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\Settings\Skin.asset
+      projectPath: Assets\HDRP\Settings\Skin.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\Settings\Skin.asset.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\Settings\Skin.asset.meta
+      projectPath: Assets\HDRP\Settings\Skin.asset.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\TutorialInfo.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\TutorialInfo.meta
+      projectPath: Assets\HDRP\TutorialInfo.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\TutorialInfo\Icons.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\TutorialInfo\Icons.meta
+      projectPath: Assets\HDRP\TutorialInfo\Icons.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\TutorialInfo\Icons\HDIcon.png
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\TutorialInfo\Icons\HDIcon.png
+      projectPath: Assets\HDRP\TutorialInfo\Icons\HDIcon.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\TutorialInfo\Icons\HDIcon.png.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\TutorialInfo\Icons\HDIcon.png.meta
+      projectPath: Assets\HDRP\TutorialInfo\Icons\HDIcon.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\TutorialInfo\Icons\Help_Icon.png
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\TutorialInfo\Icons\Help_Icon.png
+      projectPath: Assets\HDRP\TutorialInfo\Icons\Help_Icon.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\TutorialInfo\Icons\Help_Icon.png.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\TutorialInfo\Icons\Help_Icon.png.meta
+      projectPath: Assets\HDRP\TutorialInfo\Icons\Help_Icon.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\TutorialInfo\Layout.wlt
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\TutorialInfo\Layout.wlt
+      projectPath: Assets\HDRP\TutorialInfo\Layout.wlt
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\TutorialInfo\Layout.wlt.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\TutorialInfo\Layout.wlt.meta
+      projectPath: Assets\HDRP\TutorialInfo\Layout.wlt.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\TutorialInfo\Scripts.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\TutorialInfo\Scripts.meta
+      projectPath: Assets\HDRP\TutorialInfo\Scripts.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\TutorialInfo\Scripts\Editor.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\TutorialInfo\Scripts\Editor.meta
+      projectPath: Assets\HDRP\TutorialInfo\Scripts\Editor.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\TutorialInfo\Scripts\Editor\ReadmeEditor.cs
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\TutorialInfo\Scripts\Editor\ReadmeEditor.cs
+      projectPath: Assets\HDRP\TutorialInfo\Scripts\Editor\ReadmeEditor.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\TutorialInfo\Scripts\Editor\ReadmeEditor.cs.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\TutorialInfo\Scripts\Editor\ReadmeEditor.cs.meta
+      projectPath: Assets\HDRP\TutorialInfo\Scripts\Editor\ReadmeEditor.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\TutorialInfo\Scripts\Readme.cs
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\TutorialInfo\Scripts\Readme.cs
+      projectPath: Assets\HDRP\TutorialInfo\Scripts\Readme.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\HDRP\TutorialInfo\Scripts\Readme.cs.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\TutorialInfo\Scripts\Readme.cs.meta
+      projectPath: Assets\HDRP\TutorialInfo\Scripts\Readme.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\Plugins.meta
+      projectPath: Assets\Plugins.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\Plugins\GitHub.meta
+      projectPath: Assets\Plugins\GitHub.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\Plugins\GitHub\Editor.meta
+      projectPath: Assets\Plugins\GitHub\Editor.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+      projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+      projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+      projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+      projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+      projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+      projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+      projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\System.Threading.dll
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\Plugins\GitHub\Editor\System.Threading.dll
+      projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+      projectPath: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+      projectPath: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\big-logo@2x.png
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\Plugins\GitHub\Editor\big-logo@2x.png
+      projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+      projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\credits.txt
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\Plugins\GitHub\Editor\credits.txt
+      projectPath: Assets\Plugins\GitHub\Editor\credits.txt
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\credits.txt.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\Plugins\GitHub\Editor\credits.txt.meta
+      projectPath: Assets\Plugins\GitHub\Editor\credits.txt.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\eula.txt
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\Plugins\GitHub\Editor\eula.txt
+      projectPath: Assets\Plugins\GitHub\Editor\eula.txt
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\eula.txt.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\Plugins\GitHub\Editor\eula.txt.meta
+      projectPath: Assets\Plugins\GitHub\Editor\eula.txt.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\libsfw.bundle
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\Plugins\GitHub\Editor\libsfw.bundle
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\libsfw.so
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\Plugins\GitHub\Editor\libsfw.so
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.so
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\libsfw.so.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\Plugins\GitHub\Editor\libsfw.so.meta
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.so.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\sfw.net.dll
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\Plugins\GitHub\Editor\sfw.net.dll
+      projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x64.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\Plugins\GitHub\Editor\x64.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x64.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+      projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+      projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x86.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\Plugins\GitHub\Editor\x86.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x86.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+      projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+      projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scenes.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\Scenes.meta
+      projectPath: Assets\Scenes.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scenes\SampleScene.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\Scenes\SampleScene.meta
+      projectPath: Assets\Scenes\SampleScene.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scenes\SampleScene.unity
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\Scenes\SampleScene.unity
+      projectPath: Assets\Scenes\SampleScene.unity
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scenes\SampleScene.unity.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\Scenes\SampleScene.unity.meta
+      projectPath: Assets\Scenes\SampleScene.unity.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scenes\SampleScene\ReflectionProbe-0.exr
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\Scenes\SampleScene\ReflectionProbe-0.exr
+      projectPath: Assets\Scenes\SampleScene\ReflectionProbe-0.exr
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scenes\SampleScene\ReflectionProbe-0.exr.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\Scenes\SampleScene\ReflectionProbe-0.exr.meta
+      projectPath: Assets\Scenes\SampleScene\ReflectionProbe-0.exr.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scenes\SampleScene\ReflectionProbe-1.exr
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\Scenes\SampleScene\ReflectionProbe-1.exr
+      projectPath: Assets\Scenes\SampleScene\ReflectionProbe-1.exr
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scenes\SampleScene\ReflectionProbe-1.exr.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\Scenes\SampleScene\ReflectionProbe-1.exr.meta
+      projectPath: Assets\Scenes\SampleScene\ReflectionProbe-1.exr.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scenes\SampleScene\ReflectionProbe-2.exr
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\Scenes\SampleScene\ReflectionProbe-2.exr
+      projectPath: Assets\Scenes\SampleScene\ReflectionProbe-2.exr
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scenes\SampleScene\ReflectionProbe-2.exr.meta
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\Scenes\SampleScene\ReflectionProbe-2.exr.meta
+      projectPath: Assets\Scenes\SampleScene\ReflectionProbe-2.exr.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Packages\manifest.json
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Packages\manifest.json
+      projectPath: Packages\manifest.json
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\AudioManager.asset
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\ProjectSettings\AudioManager.asset
+      projectPath: ProjectSettings\AudioManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\ClusterInputManager.asset
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\ProjectSettings\ClusterInputManager.asset
+      projectPath: ProjectSettings\ClusterInputManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\DynamicsManager.asset
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\ProjectSettings\DynamicsManager.asset
+      projectPath: ProjectSettings\DynamicsManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\EditorBuildSettings.asset
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\ProjectSettings\EditorBuildSettings.asset
+      projectPath: ProjectSettings\EditorBuildSettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\EditorSettings.asset
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\ProjectSettings\EditorSettings.asset
+      projectPath: ProjectSettings\EditorSettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\GraphicsSettings.asset
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\ProjectSettings\GraphicsSettings.asset
+      projectPath: ProjectSettings\GraphicsSettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\InputManager.asset
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\ProjectSettings\InputManager.asset
+      projectPath: ProjectSettings\InputManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\NavMeshAreas.asset
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\ProjectSettings\NavMeshAreas.asset
+      projectPath: ProjectSettings\NavMeshAreas.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\Physics2DSettings.asset
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\ProjectSettings\Physics2DSettings.asset
+      projectPath: ProjectSettings\Physics2DSettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\PresetManager.asset
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\ProjectSettings\PresetManager.asset
+      projectPath: ProjectSettings\PresetManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\ProjectSettings.asset
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\ProjectSettings\ProjectSettings.asset
+      projectPath: ProjectSettings\ProjectSettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\ProjectVersion.txt
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\ProjectSettings\ProjectVersion.txt
+      projectPath: ProjectSettings\ProjectVersion.txt
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\QualitySettings.asset
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\ProjectSettings\QualitySettings.asset
+      projectPath: ProjectSettings\QualitySettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\TagManager.asset
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\ProjectSettings\TagManager.asset
+      projectPath: ProjectSettings\TagManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\TimeManager.asset
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\ProjectSettings\TimeManager.asset
+      projectPath: ProjectSettings\TimeManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\UnityConnectSettings.asset
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\ProjectSettings\UnityConnectSettings.asset
+      projectPath: ProjectSettings\UnityConnectSettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\VFXManager.asset
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\ProjectSettings\VFXManager.asset
+      projectPath: ProjectSettings\VFXManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\XRSettings.asset
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\ProjectSettings\XRSettings.asset
+      projectPath: ProjectSettings\XRSettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: 130b3f3c446027a1f01636a040ad0546b4947f4f
+    mergeA: 
+    mergeB: 
+    authorName: "Simon G\xF8rtz Flou Nielsen"
+    authorEmail: sgfn17@student.aau.dk
+    commitEmail: sgfn17@student.aau.dk
+    commitName: "Simon G\xF8rtz Flou Nielsen"
+    summary: Initial commit
+    description: 
+    timeString: 2020-03-04T13:33:25.000+01:00
+    commitTimeString: 2020-03-04T13:33:25.000+01:00
+    changes:
+    - path: .gitattributes
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\.gitattributes
+      projectPath: .gitattributes
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: .gitignore
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\.gitignore
+      projectPath: .gitignore
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\.gitignore
+      fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\.gitignore
+      projectPath: Assets\.gitignore
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
