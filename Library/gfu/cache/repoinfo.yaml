@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2020-03-18T14:31:36.650+01:00
-  initializedAtString: 2020-03-18T14:31:36.650+01:00
+  lastUpdatedAtString: 2020-04-10T20:57:57.141+02:00
+  initializedAtString: 2020-04-10T20:50:22.190+02:00
   currentGitRemote:
     name: origin
-    url: VR-Photogrammetry
+    url: https://github.com/MrFlou/VR-Photogrammetry-Teaching
     login: 
     user: 
     host: 
@@ -34,5 +34,5 @@ MonoBehaviour:
     trackingBranch: 
   currentConfigRemote:
     name: origin
-    url: VR-Photogrammetry
+    url: https://github.com/MrFlou/VR-Photogrammetry-Teaching
   currentHead: 
