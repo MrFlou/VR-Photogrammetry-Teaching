@@ -13,12 +13,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2020-04-10T20:57:57.135+02:00
-  initializedAtString: 2020-04-10T20:50:34.979+02:00
+  lastUpdatedAtString: 2020-04-13T09:26:10.745+02:00
+  initializedAtString: 2020-04-13T09:26:10.591+02:00
   localBranches:
-  - name: Simon
+  - name: master
     tracking: 
-  remoteBranches: []
+  - name: Simon
+    tracking: origin/Simon
+  remoteBranches:
+  - name: origin/master
+    tracking: '[None]'
+  - name: origin/Simon
+    tracking: '[None]'
   remotes:
   - name: origin
     url: https://github.com/MrFlou/VR-Photogrammetry-Teaching
@@ -29,20 +35,38 @@ MonoBehaviour:
     token: 
   localConfigBranches:
     keys:
+    - master
     - Simon
     values:
-    - name: Simon
+    - name: master
       remote:
         name: 
         url: 
       trackingBranch: 
+    - name: Simon
+      remote:
+        name: origin
+        url: https://github.com/MrFlou/VR-Photogrammetry-Teaching
+      trackingBranch: Simon
   remoteConfigBranches:
     keys:
     - origin
     subKeys:
-    - Values: []
+    - Values:
+      - master
+      - Simon
     subKeyValues:
-    - Values: []
+    - Values:
+      - name: master
+        remote:
+          name: origin
+          url: https://github.com/MrFlou/VR-Photogrammetry-Teaching
+        trackingBranch: 
+      - name: Simon
+        remote:
+          name: origin
+          url: https://github.com/MrFlou/VR-Photogrammetry-Teaching
+        trackingBranch: 
   configRemotes:
     keys:
     - origin

@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2020-04-10T20:57:57.141+02:00
-  initializedAtString: 2020-04-10T20:50:22.190+02:00
+  lastUpdatedAtString: 2020-04-13T10:15:52.987+02:00
+  initializedAtString: 2020-04-13T10:15:52.987+02:00
   currentGitRemote:
     name: origin
     url: https://github.com/MrFlou/VR-Photogrammetry-Teaching
@@ -24,14 +24,14 @@ MonoBehaviour:
     function: 0
     token: 
   currentGitBranch:
-    name: master
-    tracking: 
+    name: Simon
+    tracking: origin/Simon
   currentConfigBranch:
-    name: master
+    name: Simon
     remote:
-      name: 
-      url: 
-    trackingBranch: 
+      name: origin
+      url: https://github.com/MrFlou/VR-Photogrammetry-Teaching
+    trackingBranch: Simon
   currentConfigRemote:
     name: origin
     url: https://github.com/MrFlou/VR-Photogrammetry-Teaching

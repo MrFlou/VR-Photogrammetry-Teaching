@@ -2,17 +2,25 @@
 using System.Collections.Generic;
 using UnityEngine;
 using Valve.VR;
+using System.IO;
+using System;
+using System.Globalization;
 
 public class paintRayCast : MonoBehaviour
 {
     public Camera Camera;
     public int res;
+    DateTime localDate = DateTime.Now;
+    string dir;
+    int ID = 0;
+    RaycastHit hit;
 
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        dir = @"C:\\Stats\\ID-" + ID.ToString();
+        DirectoryInfo di = Directory.CreateDirectory(dir);
     }
 
     // Update is called once per frame
@@ -30,19 +38,18 @@ public class paintRayCast : MonoBehaviour
         {
             TakeImage();
         }
+
     }
 
     void TakeImage()
     {
-        RaycastHit hit;
-        float camFOV = Camera.fieldOfView/2;
+
+        float camFOV = Camera.fieldOfView / 2;
         float difDeg = ((camFOV * 2) / res);
-        Debug.Log(difDeg);
         Vector3 directionRay = Quaternion.AngleAxis(camFOV, new Vector3(0, 1, 0)) * Vector3.forward;
         directionRay = Quaternion.AngleAxis(-camFOV, new Vector3(1, 0, 0)) * directionRay;
         Physics.Raycast(Camera.transform.position, Camera.transform.TransformDirection(Vector3.forward), out hit, Mathf.Infinity);
         Renderer rend = hit.transform.GetComponent<Renderer>();
-        MeshCollider meshCollider = hit.collider as MeshCollider;
         Texture2D tex = rend.material.mainTexture as Texture2D;
 
         float nowDegY = 0f;        
@@ -50,8 +57,7 @@ public class paintRayCast : MonoBehaviour
         {
             float nowDegX = 0f;
             for (int x = 0; x < res; x++)
-            {
-                
+            {                
                 Physics.Raycast(Camera.transform.position, Camera.transform.TransformDirection(directionRay), out hit, 100f);
                 Vector2 pixelUV = hit.textureCoord;
                 pixelUV.x *= tex.width;
@@ -59,8 +65,7 @@ public class paintRayCast : MonoBehaviour
                 tex.SetPixel((int)pixelUV.x, (int)pixelUV.y, Color.red);                
                 nowDegX = nowDegX + difDeg;
                 directionRay = Quaternion.AngleAxis(camFOV - nowDegX, new Vector3(1, 0, 0)) * Vector3.forward;
-                directionRay = Quaternion.AngleAxis(camFOV - nowDegY, new Vector3(0, 1, 0)) * directionRay;
-                
+                directionRay = Quaternion.AngleAxis(camFOV - nowDegY, new Vector3(0, 1, 0)) * directionRay;               
 
             }
             nowDegY = nowDegY + difDeg;            
