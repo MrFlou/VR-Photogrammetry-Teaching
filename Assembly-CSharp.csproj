@@ -66,6 +66,7 @@
     <Compile Include="Assets\Cam-RayCast\paintRayCast.cs" />
     <Compile Include="Assets\HDRP\Scripts\SimpleCameraController.cs" />
     <Compile Include="Assets\HDRP\TutorialInfo\Scripts\Readme.cs" />
+    <Compile Include="Assets\Shader\HowToSaveLoadAnArrayWithCompression.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/simon/Documents/VR-Photogrammetry/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
