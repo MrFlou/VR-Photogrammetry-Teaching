@@ -2,25 +2,24 @@
 using System.Collections.Generic;
 using UnityEngine;
 using Valve.VR;
-using System.IO;
 using System;
-using System.Globalization;
+
 
 public class paintRayCast : MonoBehaviour
 {
     public Camera Camera;
     public int res;
-    DateTime localDate = DateTime.Now;
-    string dir;
     int ID = 0;
+    int picNr = 0;
     RaycastHit hit;
+    int[,] imageArray = new int[512, 512];
+    int[,] takenArray;
 
 
     // Start is called before the first frame update
     void Start()
     {
-        dir = @"C:\\Stats\\ID-" + ID.ToString();
-        DirectoryInfo di = Directory.CreateDirectory(dir);
+
     }
 
     // Update is called once per frame
@@ -43,7 +42,7 @@ public class paintRayCast : MonoBehaviour
 
     void TakeImage()
     {
-
+        takenArray = new int[512, 512];
         float camFOV = Camera.fieldOfView / 2;
         float difDeg = ((camFOV * 2) / res);
         Vector3 directionRay = Quaternion.AngleAxis(camFOV, new Vector3(0, 1, 0)) * Vector3.forward;
@@ -61,15 +60,34 @@ public class paintRayCast : MonoBehaviour
                 Physics.Raycast(Camera.transform.position, Camera.transform.TransformDirection(directionRay), out hit, 100f);
                 Vector2 pixelUV = hit.textureCoord;
                 pixelUV.x *= tex.width;
-                pixelUV.y *= tex.height;
-                tex.SetPixel((int)pixelUV.x, (int)pixelUV.y, Color.red);                
+                pixelUV.y *= tex.height;                
                 nowDegX = nowDegX + difDeg;
                 directionRay = Quaternion.AngleAxis(camFOV - nowDegX, new Vector3(1, 0, 0)) * Vector3.forward;
-                directionRay = Quaternion.AngleAxis(camFOV - nowDegY, new Vector3(0, 1, 0)) * directionRay;               
-
+                directionRay = Quaternion.AngleAxis(camFOV - nowDegY, new Vector3(0, 1, 0)) * directionRay;
+                takenArray[(int)pixelUV.x, (int)pixelUV.y] = 1;
             }
+            
             nowDegY = nowDegY + difDeg;            
         }
+        for (int y = 0; y < takenArray.GetLength(0); y++)
+            {
+                for (int x = 0; x < takenArray.GetLength(1); x++)
+                {
+                    imageArray[x, y] = imageArray[x, y] + takenArray[x, y];
+                    if (imageArray[x,y] == 1)
+                    {
+                        tex.SetPixel(x, y, Color.red);
+                    } else if (imageArray[x, y] == 2)
+                    {
+                        tex.SetPixel(x, y, Color.blue);
+                    } else if (imageArray[x, y] >= 3)
+                    {
+                        tex.SetPixel(x, y, Color.green);
+                    }
+                }
+            }
         tex.Apply();
+        picNr = picNr + 1;
+
     }
 }
