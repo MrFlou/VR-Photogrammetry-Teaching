@@ -7,6 +7,7 @@ using System.IO;
 using System.IO.Compression;
 using System.Runtime.Serialization.Formatters.Binary;
 using System.Text;
+using System.Linq;
 
 
 public class paintRayCast : MonoBehaviour
@@ -42,7 +43,22 @@ public class paintRayCast : MonoBehaviour
         {
             TakeImage();
         }
+        if (SteamVR_Actions._default.B_Button.GetStateDown(SteamVR_Input_Sources.RightHand))
+        {
+            Debug.Log("B Has been pressed");
+        } else
+        {
 
+        }
+
+    }
+
+    void ViewHeatMap(bool status)
+    {
+        if (status)
+        {
+
+        }
     }
 
     void TakeImage()
@@ -56,9 +72,11 @@ public class paintRayCast : MonoBehaviour
         Renderer rend = hit.transform.GetComponent<Renderer>();
         Texture2D tex = rend.material.mainTexture as Texture2D;
 
-
+        float max = 0;
         takenArray = new float[512, 512];
-        float nowDegY = 0f;        
+        float nowDegY = 0f;
+        
+
         for (int y = 0; y < res; y++)
         {
             float nowDegX = 0f;
@@ -72,17 +90,31 @@ public class paintRayCast : MonoBehaviour
                 directionRay = Quaternion.AngleAxis(camFOV - nowDegX, new Vector3(1, 0, 0)) * Vector3.forward;
                 directionRay = Quaternion.AngleAxis(camFOV - nowDegY, new Vector3(0, 1, 0)) * directionRay;
                 takenArray[(int)pixelUV.x, (int)pixelUV.y] = 1;
+                
+
             }
             
             nowDegY = nowDegY + difDeg;            
         }
-        Texture2D textureOut = new Texture2D(512, 512);
+
+        takenArray[0, 0] = 0;
+
         for (int y = 0; y < takenArray.GetLength(0); y++)
+        {
+            for (int x = 0; x < takenArray.GetLength(1); x++)
             {
-                for (int x = 0; x < takenArray.GetLength(1); x++)
+                imageArray[x, y] = imageArray[x, y] + takenArray[x, y];
+                if (imageArray[x,y] > max) { max = imageArray[x, y]; }
+            }
+        }
+
+
+        Texture2D textureOut = new Texture2D(512, 512);
+        for (int y = 0; y < imageArray.GetLength(0); y++)
+            {
+                for (int x = 0; x < imageArray.GetLength(1); x++)
                 {
-                    imageArray[x, y] = imageArray[x, y] + takenArray[x, y];                    
-                    Color col = new Color(imageArray[x, y] / picNr, imageArray[x, y] / picNr, imageArray[x, y] / picNr, 1f);                    
+                    Color col = new Color(imageArray[x, y] / max, imageArray[x, y] / picNr, imageArray[x, y] / max, 1f);                    
                     textureOut.SetPixel(x, y, col);
                 /* Standard Red,Blue,Green
                  if (takenArray[x,y] == 1)
@@ -98,9 +130,10 @@ public class paintRayCast : MonoBehaviour
                 }
             }
 
-        SaveTextureAsPNG(textureOut, Application.dataPath + "/grayScale.png");
-        tex.Apply();
+        SaveTextureAsPNG(textureOut, Application.dataPath + "/grayScale.png");        
+        Debug.Log("max: " + max + " - PicNr: " + picNr);
         picNr = picNr + 1;
+
 
     }
     public static void SaveTextureAsPNG(Texture2D _texture, string _fullPath)

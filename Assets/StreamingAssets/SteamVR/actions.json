@@ -51,6 +51,11 @@
     },
     {
       "name": "/actions/default/in/TakeImage",
+      "type": "boolean",
+      "requirement": "suggested"
+    },
+    {
+      "name": "/actions/default/in/B_Button",
       "type": "boolean"
     },
     {
