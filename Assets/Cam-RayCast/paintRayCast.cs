@@ -13,6 +13,7 @@ using System.Linq;
 public class paintRayCast : MonoBehaviour
 {
     public Camera Camera;
+    public GameObject model;
     public int res;
     int ID = 0;
     int picNr = 1;
@@ -45,10 +46,11 @@ public class paintRayCast : MonoBehaviour
         }
         if (SteamVR_Actions._default.B_Button.GetStateDown(SteamVR_Input_Sources.RightHand))
         {
+            model.GetComponent<Renderer>().sharedMaterial.SetFloat("_BlendFac", 1);
             Debug.Log("B Has been pressed");
-        } else
+        } else if(SteamVR_Actions._default.B_Button.GetStateUp(SteamVR_Input_Sources.RightHand))
         {
-
+            model.GetComponent<Renderer>().sharedMaterial.SetFloat("_BlendFac", 0);
         }
 
     }
