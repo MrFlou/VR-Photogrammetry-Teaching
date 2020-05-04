@@ -15,59 +15,45 @@ public class paintRayCast : MonoBehaviour
     public Camera Camera;
     public GameObject model;
     public int res;
-    int ID = 0;
     int picNr = 1;
     RaycastHit hit;
     float[,] imageArray = new float[512, 512];
     float[,] takenArray;
+    bool heatmap = false;
+    float camFOV = Camera.fieldOfView / 2;
+    float difDeg = ((camFOV * 2) / res);
 
-
-
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
     void Update()
     {
-        // RaycastHit hit;
-        // float camFOV = Camera.fieldOfView/2;
-        // float difDeg = (res / camFOV);
-        // Debug.DrawRay(Camera.transform.position, Camera.transform.TransformDirection(Quaternion.AngleAxis(camFOV, new Vector3(1, 0, 0)) * Vector3.forward), Color.red);
-        // Debug.DrawRay(Camera.transform.position, Camera.transform.TransformDirection(Quaternion.AngleAxis(-camFOV, new Vector3(1 , 0 ,0)) * Vector3.forward) , Color.green);
-        // Vector3 directionRay = Quaternion.AngleAxis(camFOV, new Vector3(0, 1, 0)) * Vector3.forward;
-        // directionRay = Quaternion.AngleAxis(-camFOV, new Vector3(1, 0, 0)) * directionRay;
-        // Debug.DrawRay(Camera.transform.position, Camera.transform.TransformDirection(directionRay), Color.blue);
+        // Buttons setup from the VR Controller, When pressing the UI/Trigger button down TakeImage function will be called
         if (SteamVR_Actions._default.InteractUI.GetStateDown(SteamVR_Input_Sources.RightHand))
         {
             TakeImage();
         }
+
+        // When pressing the A button it will toggle the Heatmap on the model
+        if (SteamVR_Actions._default.A_Button.GetStateDown(SteamVR_Input_Sources.RightHand))
+        {
+            if (heatmap == false) {
+                model.GetComponent<Renderer>().sharedMaterial.SetFloat("_BlendFac", 1);
+                heatmap = true;
+            } else if (heatmap == true) {
+                model.GetComponent<Renderer>().sharedMaterial.SetFloat("_BlendFac", 0);
+                heatmap = false;
+            }            
+        } 
+
+        // Ability to exit the program
         if (SteamVR_Actions._default.B_Button.GetStateDown(SteamVR_Input_Sources.RightHand))
         {
-            model.GetComponent<Renderer>().sharedMaterial.SetFloat("_BlendFac", 1);
+            Application.Quit();
             Debug.Log("B Has been pressed");
-        } else if(SteamVR_Actions._default.B_Button.GetStateUp(SteamVR_Input_Sources.RightHand))
-        {
-            model.GetComponent<Renderer>().sharedMaterial.SetFloat("_BlendFac", 0);
         }
 
-    }
-
-    void ViewHeatMap(bool status)
-    {
-        if (status)
-        {
-
-        }
     }
 
     void TakeImage()
     {
-        
-        float camFOV = Camera.fieldOfView / 2;
-        float difDeg = ((camFOV * 2) / res);
         Vector3 directionRay = Quaternion.AngleAxis(camFOV, new Vector3(0, 1, 0)) * Vector3.forward;
         directionRay = Quaternion.AngleAxis(-camFOV, new Vector3(1, 0, 0)) * directionRay;
         Physics.Raycast(Camera.transform.position, Camera.transform.TransformDirection(Vector3.forward), out hit, Mathf.Infinity);
@@ -76,8 +62,7 @@ public class paintRayCast : MonoBehaviour
 
         float max = 0;
         takenArray = new float[512, 512];
-        float nowDegY = 0f;
-        
+        float nowDegY = 0f;        
 
         for (int y = 0; y < res; y++)
         {
@@ -92,8 +77,6 @@ public class paintRayCast : MonoBehaviour
                 directionRay = Quaternion.AngleAxis(camFOV - nowDegX, new Vector3(1, 0, 0)) * Vector3.forward;
                 directionRay = Quaternion.AngleAxis(camFOV - nowDegY, new Vector3(0, 1, 0)) * directionRay;
                 takenArray[(int)pixelUV.x, (int)pixelUV.y] = 1;
-                
-
             }
             
             nowDegY = nowDegY + difDeg;            
@@ -118,30 +101,18 @@ public class paintRayCast : MonoBehaviour
                 {
                     Color col = new Color(imageArray[x, y] / max, imageArray[x, y] / picNr, imageArray[x, y] / max, 1f);                    
                     textureOut.SetPixel(x, y, col);
-                /* Standard Red,Blue,Green
-                 if (takenArray[x,y] == 1)
-                {
-                    tex.SetPixel(x, y, Color.red);
-                } else if (imageArray[x, y] == 2)
-                {
-                    tex.SetPixel(x, y, Color.blue);
-                } else if (imageArray[x, y] >= 3)
-                {
-                    tex.SetPixel(x, y, Color.green);
-                }*/
                 }
             }
 
         SaveTextureAsPNG(textureOut, Application.dataPath + "/grayScale.png");        
         Debug.Log("max: " + max + " - PicNr: " + picNr);
         picNr = picNr + 1;
-
-
     }
+
     public static void SaveTextureAsPNG(Texture2D _texture, string _fullPath)
     {
         byte[] _bytes = _texture.EncodeToPNG();
-        System.IO.File.WriteAllBytes(_fullPath, _bytes);
+        File.WriteAllBytes(_fullPath, _bytes);
         Debug.Log(_bytes.Length / 512 + "Kb was saved as: " + _fullPath);
     }
 
