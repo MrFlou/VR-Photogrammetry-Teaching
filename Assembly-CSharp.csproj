@@ -64,6 +64,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Cam-RayCast\paintRayCast.cs" />
+    <Compile Include="Assets\Ghost-Things\Match.cs" />
     <Compile Include="Assets\HDRP\Scripts\SimpleCameraController.cs" />
     <Compile Include="Assets\HDRP\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\Shader\HowToSaveLoadAnArrayWithCompression.cs" />

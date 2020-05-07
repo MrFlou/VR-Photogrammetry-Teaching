@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2020-05-04T10:32:05.243+02:00
-  initializedAtString: 2020-05-04T09:48:50.698+02:00
+  lastUpdatedAtString: 2020-05-07T11:09:27.970+02:00
+  initializedAtString: 2020-05-07T11:02:37.668+02:00
   entries:
   - path: .vs\VR-Photogrammetry\v16\.suo
     fullPath: C:\Users\simon\Documents\VR-Photogrammetry\.vs\VR-Photogrammetry\v16\.suo
@@ -32,14 +32,20 @@ MonoBehaviour:
     fullPath: C:\Users\simon\Documents\VR-Photogrammetry\.vs\VR-Photogrammetry\v16\Server\sqlite3\storage.ide-shm
     projectPath: .vs\VR-Photogrammetry\v16\Server\sqlite3\storage.ide-shm
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: .vs\VR-Photogrammetry\v16\Server\sqlite3\storage.ide-wal
     fullPath: C:\Users\simon\Documents\VR-Photogrammetry\.vs\VR-Photogrammetry\v16\Server\sqlite3\storage.ide-wal
     projectPath: .vs\VR-Photogrammetry\v16\Server\sqlite3\storage.ide-wal
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assembly-CSharp.csproj
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assembly-CSharp.csproj
+    projectPath: Assembly-CSharp.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Assets\AAU_AVALap.unity
     fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\AAU_AVALap.unity
     projectPath: Assets\AAU_AVALap.unity
@@ -52,27 +58,117 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\HDRP\Settings\SampleSceneRenderingSettings.asset
-    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\HDRP\Settings\SampleSceneRenderingSettings.asset
-    projectPath: Assets\HDRP\Settings\SampleSceneRenderingSettings.asset
+  - path: Assets\Ghost-Things.meta
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\Ghost-Things.meta
+    projectPath: Assets\Ghost-Things.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Ghost-Things\ghost.fbx
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\Ghost-Things\ghost.fbx
+    projectPath: Assets\Ghost-Things\ghost.fbx
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Ghost-Things\ghost.fbx.meta
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\Ghost-Things\ghost.fbx.meta
+    projectPath: Assets\Ghost-Things\ghost.fbx.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Ghost-Things\ghost.mat
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\Ghost-Things\ghost.mat
+    projectPath: Assets\Ghost-Things\ghost.mat
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Ghost-Things\ghost.mat.meta
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\Ghost-Things\ghost.mat.meta
+    projectPath: Assets\Ghost-Things\ghost.mat.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Ghost-Things\ghost.prefab
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\Ghost-Things\ghost.prefab
+    projectPath: Assets\Ghost-Things\ghost.prefab
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Ghost-Things\ghost.prefab.meta
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\Ghost-Things\ghost.prefab.meta
+    projectPath: Assets\Ghost-Things\ghost.prefab.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Ghost-Things\lambert6.mat
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\Ghost-Things\lambert6.mat
+    projectPath: Assets\Ghost-Things\lambert6.mat
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Ghost-Things\lambert6.mat.meta
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\Ghost-Things\lambert6.mat.meta
+    projectPath: Assets\Ghost-Things\lambert6.mat.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Ghost-Things\Match.cs
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\Ghost-Things\Match.cs
+    projectPath: Assets\Ghost-Things\Match.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Ghost-Things\Match.cs.meta
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\Ghost-Things\Match.cs.meta
+    projectPath: Assets\Ghost-Things\Match.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\grayScale.png
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\grayScale.png
+    projectPath: Assets\grayScale.png
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\SteamVR_Input\ActionSetClasses\SteamVR_Input_ActionSet_default.cs
-    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\SteamVR_Input\ActionSetClasses\SteamVR_Input_ActionSet_default.cs
-    projectPath: Assets\SteamVR_Input\ActionSetClasses\SteamVR_Input_ActionSet_default.cs
+  - path: Assets\Learn-SFM video 1.0.mp4
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\Learn-SFM video 1.0.mp4
+    projectPath: Assets\Learn-SFM video 1.0.mp4
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Learn-SFM video 1.0.mp4.meta
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\Learn-SFM video 1.0.mp4.meta
+    projectPath: Assets\Learn-SFM video 1.0.mp4.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Learn-SFM video 2.0.mp4
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\Learn-SFM video 2.0.mp4
+    projectPath: Assets\Learn-SFM video 2.0.mp4
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Learn-SFM video 2.0.mp4.meta
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\Learn-SFM video 2.0.mp4.meta
+    projectPath: Assets\Learn-SFM video 2.0.mp4.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Shader\Boi.mat
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\Shader\Boi.mat
+    projectPath: Assets\Shader\Boi.mat
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\SteamVR_Input\SteamVR_Input_Actions.cs
-    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\SteamVR_Input\SteamVR_Input_Actions.cs
-    projectPath: Assets\SteamVR_Input\SteamVR_Input_Actions.cs
+  - path: Assets\Shader\LitHeatMap.shadergraph
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\Shader\LitHeatMap.shadergraph
+    projectPath: Assets\Shader\LitHeatMap.shadergraph
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\StreamingAssets\SteamVR\actions.json
-    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\StreamingAssets\SteamVR\actions.json
-    projectPath: Assets\StreamingAssets\SteamVR\actions.json
+  - path: Assets\Shader\Shader Graphs_LitHeatMap.mat
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Assets\Shader\Shader Graphs_LitHeatMap.mat
+    projectPath: Assets\Shader\Shader Graphs_LitHeatMap.mat
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -88,6 +184,12 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: Library\CurrentMaximizeLayout.dwlt
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\CurrentMaximizeLayout.dwlt
+    projectPath: Library\CurrentMaximizeLayout.dwlt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library\EditorInstance.json
     fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\EditorInstance.json
     projectPath: Library\EditorInstance.json
@@ -118,30 +220,144 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: Library\InspectorExpandedItems.asset
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\InspectorExpandedItems.asset
+    projectPath: Library\InspectorExpandedItems.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\01\012daace68024bb46a79abe316bbd2c0
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\metadata\01\012daace68024bb46a79abe316bbd2c0
+    projectPath: Library\metadata\01\012daace68024bb46a79abe316bbd2c0
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\01\012daace68024bb46a79abe316bbd2c0.info
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\metadata\01\012daace68024bb46a79abe316bbd2c0.info
+    projectPath: Library\metadata\01\012daace68024bb46a79abe316bbd2c0.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\04\04379629aeb9ed343929cbdba3724798
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\metadata\04\04379629aeb9ed343929cbdba3724798
+    projectPath: Library\metadata\04\04379629aeb9ed343929cbdba3724798
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\04\04379629aeb9ed343929cbdba3724798.info
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\metadata\04\04379629aeb9ed343929cbdba3724798.info
+    projectPath: Library\metadata\04\04379629aeb9ed343929cbdba3724798.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\14\14619501787886b4eb3224b09fccfd7f.info
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\metadata\14\14619501787886b4eb3224b09fccfd7f.info
+    projectPath: Library\metadata\14\14619501787886b4eb3224b09fccfd7f.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\35\357dd45f9ef927c499f038eacc9b3b12
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\metadata\35\357dd45f9ef927c499f038eacc9b3b12
+    projectPath: Library\metadata\35\357dd45f9ef927c499f038eacc9b3b12
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\35\357dd45f9ef927c499f038eacc9b3b12.info
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\metadata\35\357dd45f9ef927c499f038eacc9b3b12.info
+    projectPath: Library\metadata\35\357dd45f9ef927c499f038eacc9b3b12.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\44\44f614388d699e444a6614d60f6d80ff
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\metadata\44\44f614388d699e444a6614d60f6d80ff
+    projectPath: Library\metadata\44\44f614388d699e444a6614d60f6d80ff
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\44\44f614388d699e444a6614d60f6d80ff.info
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\metadata\44\44f614388d699e444a6614d60f6d80ff.info
+    projectPath: Library\metadata\44\44f614388d699e444a6614d60f6d80ff.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\4b\4b0762213269e5f45b6b2ef4dab2ec29
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\metadata\4b\4b0762213269e5f45b6b2ef4dab2ec29
+    projectPath: Library\metadata\4b\4b0762213269e5f45b6b2ef4dab2ec29
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\4b\4b0762213269e5f45b6b2ef4dab2ec29.info
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\metadata\4b\4b0762213269e5f45b6b2ef4dab2ec29.info
+    projectPath: Library\metadata\4b\4b0762213269e5f45b6b2ef4dab2ec29.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library\metadata\50\5058070e08408a74591150b641b8d04c
     fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\metadata\50\5058070e08408a74591150b641b8d04c
     projectPath: Library\metadata\50\5058070e08408a74591150b641b8d04c
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\metadata\79\79bc33e8f7cb97b419e84341483420b3
-    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\metadata\79\79bc33e8f7cb97b419e84341483420b3
-    projectPath: Library\metadata\79\79bc33e8f7cb97b419e84341483420b3
+  - path: Library\metadata\58\58bedc423567be84e894b75433b15c44
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\metadata\58\58bedc423567be84e894b75433b15c44
+    projectPath: Library\metadata\58\58bedc423567be84e894b75433b15c44
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\58\58bedc423567be84e894b75433b15c44.info
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\metadata\58\58bedc423567be84e894b75433b15c44.info
+    projectPath: Library\metadata\58\58bedc423567be84e894b75433b15c44.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\a2\a2fe46b2e5611ff42af23d539ee8d0f7.info
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\metadata\a2\a2fe46b2e5611ff42af23d539ee8d0f7.info
+    projectPath: Library\metadata\a2\a2fe46b2e5611ff42af23d539ee8d0f7.info
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\metadata\f6\f6530a7c2e094554cab12a06c6f522c1
-    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\metadata\f6\f6530a7c2e094554cab12a06c6f522c1
-    projectPath: Library\metadata\f6\f6530a7c2e094554cab12a06c6f522c1
+  - path: Library\metadata\aa\aae255fc5f308084da3c6843f66e09a8
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\metadata\aa\aae255fc5f308084da3c6843f66e09a8
+    projectPath: Library\metadata\aa\aae255fc5f308084da3c6843f66e09a8
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\aa\aae255fc5f308084da3c6843f66e09a8.info
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\metadata\aa\aae255fc5f308084da3c6843f66e09a8.info
+    projectPath: Library\metadata\aa\aae255fc5f308084da3c6843f66e09a8.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\b7\b74501309d0a96b43a81d3d0ee9321da
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\metadata\b7\b74501309d0a96b43a81d3d0ee9321da
+    projectPath: Library\metadata\b7\b74501309d0a96b43a81d3d0ee9321da
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\b7\b74501309d0a96b43a81d3d0ee9321da.info
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\metadata\b7\b74501309d0a96b43a81d3d0ee9321da.info
+    projectPath: Library\metadata\b7\b74501309d0a96b43a81d3d0ee9321da.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\d5\d5d6bbcf567c5b949b8229d13abc3969
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\metadata\d5\d5d6bbcf567c5b949b8229d13abc3969
+    projectPath: Library\metadata\d5\d5d6bbcf567c5b949b8229d13abc3969
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\SceneVisibilityState.asset
-    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\SceneVisibilityState.asset
-    projectPath: Library\SceneVisibilityState.asset
+  - path: Library\metadata\fe\feb8022fe8ad8ae409d1b09bb570a435
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\metadata\fe\feb8022fe8ad8ae409d1b09bb570a435
+    projectPath: Library\metadata\fe\feb8022fe8ad8ae409d1b09bb570a435
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\fe\feb8022fe8ad8ae409d1b09bb570a435.info
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\metadata\fe\feb8022fe8ad8ae409d1b09bb570a435.info
+    projectPath: Library\metadata\fe\feb8022fe8ad8ae409d1b09bb570a435.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library\ScriptAssemblies\Assembly-CSharp.dll
     fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\ScriptAssemblies\Assembly-CSharp.dll
     projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
@@ -166,45 +382,633 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\ScriptAssemblies\BuiltinAssemblies.stamp
-    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\ScriptAssemblies\BuiltinAssemblies.stamp
-    projectPath: Library\ScriptAssemblies\BuiltinAssemblies.stamp
+  - path: Library\ScriptAssemblies\SteamVR.dll
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\ScriptAssemblies\SteamVR.dll
+    projectPath: Library\ScriptAssemblies\SteamVR.dll
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 5
+    workTreeStatus: 3
   - path: Library\ScriptAssemblies\SteamVR_Actions.dll
     fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\ScriptAssemblies\SteamVR_Actions.dll
     projectPath: Library\ScriptAssemblies\SteamVR_Actions.dll
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\ScriptAssemblies\SteamVR_Actions.pdb
-    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\ScriptAssemblies\SteamVR_Actions.pdb
-    projectPath: Library\ScriptAssemblies\SteamVR_Actions.pdb
+  - path: Library\ScriptAssemblies\SteamVR_Editor.dll
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\ScriptAssemblies\SteamVR_Editor.dll
+    projectPath: Library\ScriptAssemblies\SteamVR_Editor.dll
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\ShaderCache\5\52c2facb4659508ed57b3a6b8405142e.bin
-    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\ShaderCache\5\52c2facb4659508ed57b3a6b8405142e.bin
-    projectPath: Library\ShaderCache\5\52c2facb4659508ed57b3a6b8405142e.bin
+  - path: Library\ScriptAssemblies\SteamVR_Input_Editor.dll
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\ScriptAssemblies\SteamVR_Input_Editor.dll
+    projectPath: Library\ScriptAssemblies\SteamVR_Input_Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\SteamVR_Windows_EditorHelper.dll
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\ScriptAssemblies\SteamVR_Windows_EditorHelper.dll
+    projectPath: Library\ScriptAssemblies\SteamVR_Windows_EditorHelper.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+    projectPath: Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+    projectPath: Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.RenderPipelines.HighDefinition.Editor.dll
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\ScriptAssemblies\Unity.RenderPipelines.HighDefinition.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.RenderPipelines.HighDefinition.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.RenderPipelines.HighDefinition.Runtime.dll
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\ScriptAssemblies\Unity.RenderPipelines.HighDefinition.Runtime.dll
+    projectPath: Library\ScriptAssemblies\Unity.RenderPipelines.HighDefinition.Runtime.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+    projectPath: Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.Rider.Editor.dll
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.Rider.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.TextMeshPro.dll
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.Timeline.dll
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\ScriptAssemblies\Unity.Timeline.dll
+    projectPath: Library\ScriptAssemblies\Unity.Timeline.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.VisualEffectGraph.Editor.dll
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\ScriptAssemblies\Unity.VisualEffectGraph.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.VisualEffectGraph.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.VisualEffectGraph.Runtime.dll
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\ScriptAssemblies\Unity.VisualEffectGraph.Runtime.dll
+    projectPath: Library\ScriptAssemblies\Unity.VisualEffectGraph.Runtime.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+    projectPath: Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\UnityEditor.UI.dll
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\ScriptAssemblies\UnityEditor.UI.dll
+    projectPath: Library\ScriptAssemblies\UnityEditor.UI.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+    projectPath: Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\UnityEngine.UI.dll
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\ScriptAssemblies\UnityEngine.UI.dll
+    projectPath: Library\ScriptAssemblies\UnityEngine.UI.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ShaderCache\0\00e24199b9768349926560568a77e80b.bin
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\ShaderCache\0\00e24199b9768349926560568a77e80b.bin
+    projectPath: Library\ShaderCache\0\00e24199b9768349926560568a77e80b.bin
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\ShaderCache\7\71c7bef05914cdfa13413ed4613e058f.bin
-    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\ShaderCache\7\71c7bef05914cdfa13413ed4613e058f.bin
-    projectPath: Library\ShaderCache\7\71c7bef05914cdfa13413ed4613e058f.bin
+  - path: Library\ShaderCache\0\00e65d84ae3f39c9314af48cce8c5bb5.bin
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\ShaderCache\0\00e65d84ae3f39c9314af48cce8c5bb5.bin
+    projectPath: Library\ShaderCache\0\00e65d84ae3f39c9314af48cce8c5bb5.bin
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\ShaderCache\8\8dca9c3e7d0240742da0c45056cd0ff8.bin
-    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\ShaderCache\8\8dca9c3e7d0240742da0c45056cd0ff8.bin
-    projectPath: Library\ShaderCache\8\8dca9c3e7d0240742da0c45056cd0ff8.bin
+  - path: Library\ShaderCache\0\04ba6fb214c6f869b402d974d458f4ff.bin
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\ShaderCache\0\04ba6fb214c6f869b402d974d458f4ff.bin
+    projectPath: Library\ShaderCache\0\04ba6fb214c6f869b402d974d458f4ff.bin
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\ShaderCache\8\8e36d3f00a7f30624238e5fa8f784e2a.bin
-    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\ShaderCache\8\8e36d3f00a7f30624238e5fa8f784e2a.bin
-    projectPath: Library\ShaderCache\8\8e36d3f00a7f30624238e5fa8f784e2a.bin
+  - path: Library\ShaderCache\0\0d86e17ceeec451167695db0f003e632.bin
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\ShaderCache\0\0d86e17ceeec451167695db0f003e632.bin
+    projectPath: Library\ShaderCache\0\0d86e17ceeec451167695db0f003e632.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\0\0db761104bb6b02526fd36d23f1e05ef.bin
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\ShaderCache\0\0db761104bb6b02526fd36d23f1e05ef.bin
+    projectPath: Library\ShaderCache\0\0db761104bb6b02526fd36d23f1e05ef.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\0\0f13dcead14efcf5d242e9861e36ee91.bin
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\ShaderCache\0\0f13dcead14efcf5d242e9861e36ee91.bin
+    projectPath: Library\ShaderCache\0\0f13dcead14efcf5d242e9861e36ee91.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\1\151abd220a6569d93c0a039894ae2cb0.bin
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\ShaderCache\1\151abd220a6569d93c0a039894ae2cb0.bin
+    projectPath: Library\ShaderCache\1\151abd220a6569d93c0a039894ae2cb0.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\1\172b07f972f50706d57478f5c9ad39b9.bin
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\ShaderCache\1\172b07f972f50706d57478f5c9ad39b9.bin
+    projectPath: Library\ShaderCache\1\172b07f972f50706d57478f5c9ad39b9.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\1\176dfb8afdd84916905700e7a6a21fa5.bin
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\ShaderCache\1\176dfb8afdd84916905700e7a6a21fa5.bin
+    projectPath: Library\ShaderCache\1\176dfb8afdd84916905700e7a6a21fa5.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\1\1aa23dbdaf1bd504d2ca4e7b882b7451.bin
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\ShaderCache\1\1aa23dbdaf1bd504d2ca4e7b882b7451.bin
+    projectPath: Library\ShaderCache\1\1aa23dbdaf1bd504d2ca4e7b882b7451.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\2\215685d5fea31fe8ccd68578989e066c.bin
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\ShaderCache\2\215685d5fea31fe8ccd68578989e066c.bin
+    projectPath: Library\ShaderCache\2\215685d5fea31fe8ccd68578989e066c.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\2\275ab7108d3ad674fc035d180e274fb3.bin
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\ShaderCache\2\275ab7108d3ad674fc035d180e274fb3.bin
+    projectPath: Library\ShaderCache\2\275ab7108d3ad674fc035d180e274fb3.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\2\299e4886924af2d813e053ff62dad408.bin
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\ShaderCache\2\299e4886924af2d813e053ff62dad408.bin
+    projectPath: Library\ShaderCache\2\299e4886924af2d813e053ff62dad408.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\2\2b2f75c01d430377fb857ba3e389931b.bin
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\ShaderCache\2\2b2f75c01d430377fb857ba3e389931b.bin
+    projectPath: Library\ShaderCache\2\2b2f75c01d430377fb857ba3e389931b.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\2\2f606f11fbbc0f05813ccf1aa86b6588.bin
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\ShaderCache\2\2f606f11fbbc0f05813ccf1aa86b6588.bin
+    projectPath: Library\ShaderCache\2\2f606f11fbbc0f05813ccf1aa86b6588.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\3\31ee42c26aa720657fc4acb2f8b10e51.bin
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\ShaderCache\3\31ee42c26aa720657fc4acb2f8b10e51.bin
+    projectPath: Library\ShaderCache\3\31ee42c26aa720657fc4acb2f8b10e51.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\3\3352693d7bd8698630858a59e25b52e5.bin
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\ShaderCache\3\3352693d7bd8698630858a59e25b52e5.bin
+    projectPath: Library\ShaderCache\3\3352693d7bd8698630858a59e25b52e5.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\3\35dab6978bc8b858419e5a73b9109406.bin
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\ShaderCache\3\35dab6978bc8b858419e5a73b9109406.bin
+    projectPath: Library\ShaderCache\3\35dab6978bc8b858419e5a73b9109406.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\3\3c9ff1f8b4ccc46e448d79f0c2b0f7c0.bin
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\ShaderCache\3\3c9ff1f8b4ccc46e448d79f0c2b0f7c0.bin
+    projectPath: Library\ShaderCache\3\3c9ff1f8b4ccc46e448d79f0c2b0f7c0.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\3\3e21913b71dc2787c15795c33b16c3eb.bin
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\ShaderCache\3\3e21913b71dc2787c15795c33b16c3eb.bin
+    projectPath: Library\ShaderCache\3\3e21913b71dc2787c15795c33b16c3eb.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\3\3ee3aeba48774ce2959e803f5dae8c86.bin
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\ShaderCache\3\3ee3aeba48774ce2959e803f5dae8c86.bin
+    projectPath: Library\ShaderCache\3\3ee3aeba48774ce2959e803f5dae8c86.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\3\3ef9f80726150879dbb57eb019abcc00.bin
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\ShaderCache\3\3ef9f80726150879dbb57eb019abcc00.bin
+    projectPath: Library\ShaderCache\3\3ef9f80726150879dbb57eb019abcc00.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\4\4533d4400769ea1624e6545ccd9960cd.bin
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\ShaderCache\4\4533d4400769ea1624e6545ccd9960cd.bin
+    projectPath: Library\ShaderCache\4\4533d4400769ea1624e6545ccd9960cd.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\4\4748e63809b0aa3fe87bad801868f695.bin
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\ShaderCache\4\4748e63809b0aa3fe87bad801868f695.bin
+    projectPath: Library\ShaderCache\4\4748e63809b0aa3fe87bad801868f695.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\4\49d9d67a8cdec8f320a162fd8b5f78d2.bin
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\ShaderCache\4\49d9d67a8cdec8f320a162fd8b5f78d2.bin
+    projectPath: Library\ShaderCache\4\49d9d67a8cdec8f320a162fd8b5f78d2.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\4\4f51da9a01df120910f98a9df265fe26.bin
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\ShaderCache\4\4f51da9a01df120910f98a9df265fe26.bin
+    projectPath: Library\ShaderCache\4\4f51da9a01df120910f98a9df265fe26.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\5\527b17b73eafdb7473b7aa233551d0a1.bin
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\ShaderCache\5\527b17b73eafdb7473b7aa233551d0a1.bin
+    projectPath: Library\ShaderCache\5\527b17b73eafdb7473b7aa233551d0a1.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\5\53d3c58d9cfd839aa6a413f404e3bb97.bin
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\ShaderCache\5\53d3c58d9cfd839aa6a413f404e3bb97.bin
+    projectPath: Library\ShaderCache\5\53d3c58d9cfd839aa6a413f404e3bb97.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\5\563790a9ead2fb737b160ccdd0aae3e7.bin
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\ShaderCache\5\563790a9ead2fb737b160ccdd0aae3e7.bin
+    projectPath: Library\ShaderCache\5\563790a9ead2fb737b160ccdd0aae3e7.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\5\565001111effffb737f359b993fda572.bin
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\ShaderCache\5\565001111effffb737f359b993fda572.bin
+    projectPath: Library\ShaderCache\5\565001111effffb737f359b993fda572.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\5\580d01c4553980d793086a71f969ac47.bin
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\ShaderCache\5\580d01c4553980d793086a71f969ac47.bin
+    projectPath: Library\ShaderCache\5\580d01c4553980d793086a71f969ac47.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\5\5d57d6d8e6e8d0356434685565dbd56e.bin
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\ShaderCache\5\5d57d6d8e6e8d0356434685565dbd56e.bin
+    projectPath: Library\ShaderCache\5\5d57d6d8e6e8d0356434685565dbd56e.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\6\614aa519964b0e58929ed288e9779fca.bin
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\ShaderCache\6\614aa519964b0e58929ed288e9779fca.bin
+    projectPath: Library\ShaderCache\6\614aa519964b0e58929ed288e9779fca.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\6\624bbedba6051eb8cbbf5ccdb8a62730.bin
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\ShaderCache\6\624bbedba6051eb8cbbf5ccdb8a62730.bin
+    projectPath: Library\ShaderCache\6\624bbedba6051eb8cbbf5ccdb8a62730.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\6\666a567b86c8336d9533e03d0573e3e8.bin
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\ShaderCache\6\666a567b86c8336d9533e03d0573e3e8.bin
+    projectPath: Library\ShaderCache\6\666a567b86c8336d9533e03d0573e3e8.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\6\6b68d6f3d2657dd1f521ddb5427392d3.bin
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\ShaderCache\6\6b68d6f3d2657dd1f521ddb5427392d3.bin
+    projectPath: Library\ShaderCache\6\6b68d6f3d2657dd1f521ddb5427392d3.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\7\70a87cb03880aac15c6119be6f3b5bad.bin
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\ShaderCache\7\70a87cb03880aac15c6119be6f3b5bad.bin
+    projectPath: Library\ShaderCache\7\70a87cb03880aac15c6119be6f3b5bad.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\7\774c2a84c1695de01a455d8f066872b3.bin
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\ShaderCache\7\774c2a84c1695de01a455d8f066872b3.bin
+    projectPath: Library\ShaderCache\7\774c2a84c1695de01a455d8f066872b3.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\7\7866d2391c365426a0699cc258a84044.bin
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\ShaderCache\7\7866d2391c365426a0699cc258a84044.bin
+    projectPath: Library\ShaderCache\7\7866d2391c365426a0699cc258a84044.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\7\7b129f615596975a5af5cdc4224200e5.bin
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\ShaderCache\7\7b129f615596975a5af5cdc4224200e5.bin
+    projectPath: Library\ShaderCache\7\7b129f615596975a5af5cdc4224200e5.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\7\7cb9e98cf0dba089ed13bb0b1b54d9e7.bin
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\ShaderCache\7\7cb9e98cf0dba089ed13bb0b1b54d9e7.bin
+    projectPath: Library\ShaderCache\7\7cb9e98cf0dba089ed13bb0b1b54d9e7.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\7\7e7600c5a6e093a0509077cace07c14f.bin
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\ShaderCache\7\7e7600c5a6e093a0509077cace07c14f.bin
+    projectPath: Library\ShaderCache\7\7e7600c5a6e093a0509077cace07c14f.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\8\80e743eaa85e8ede5211d146216706fb.bin
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\ShaderCache\8\80e743eaa85e8ede5211d146216706fb.bin
+    projectPath: Library\ShaderCache\8\80e743eaa85e8ede5211d146216706fb.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\8\8ad3d4b9d0e2789c92ddb0037e53d33b.bin
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\ShaderCache\8\8ad3d4b9d0e2789c92ddb0037e53d33b.bin
+    projectPath: Library\ShaderCache\8\8ad3d4b9d0e2789c92ddb0037e53d33b.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\8\8c5a7ca1e35b32c94dfb7874d9eb80f3.bin
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\ShaderCache\8\8c5a7ca1e35b32c94dfb7874d9eb80f3.bin
+    projectPath: Library\ShaderCache\8\8c5a7ca1e35b32c94dfb7874d9eb80f3.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\8\8cedd27c24a899a478c646109878fd69.bin
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\ShaderCache\8\8cedd27c24a899a478c646109878fd69.bin
+    projectPath: Library\ShaderCache\8\8cedd27c24a899a478c646109878fd69.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\8\8e62776c5ca35a5cb15801d8887ffe52.bin
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\ShaderCache\8\8e62776c5ca35a5cb15801d8887ffe52.bin
+    projectPath: Library\ShaderCache\8\8e62776c5ca35a5cb15801d8887ffe52.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\9\91de195f6a6aefe8b7a2a043738f98c1.bin
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\ShaderCache\9\91de195f6a6aefe8b7a2a043738f98c1.bin
+    projectPath: Library\ShaderCache\9\91de195f6a6aefe8b7a2a043738f98c1.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\9\92b551d74bd8c8f10fbb0337faf29559.bin
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\ShaderCache\9\92b551d74bd8c8f10fbb0337faf29559.bin
+    projectPath: Library\ShaderCache\9\92b551d74bd8c8f10fbb0337faf29559.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\9\937f30c3b16bf66299ea8221f6e805d4.bin
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\ShaderCache\9\937f30c3b16bf66299ea8221f6e805d4.bin
+    projectPath: Library\ShaderCache\9\937f30c3b16bf66299ea8221f6e805d4.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\9\9540f52e3135dc77d52bddcb37aa22f0.bin
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\ShaderCache\9\9540f52e3135dc77d52bddcb37aa22f0.bin
+    projectPath: Library\ShaderCache\9\9540f52e3135dc77d52bddcb37aa22f0.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\9\96e683954cec0ed936486571b1cb6f6b.bin
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\ShaderCache\9\96e683954cec0ed936486571b1cb6f6b.bin
+    projectPath: Library\ShaderCache\9\96e683954cec0ed936486571b1cb6f6b.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\9\98de2e92e02e868a269dafc59d1de987.bin
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\ShaderCache\9\98de2e92e02e868a269dafc59d1de987.bin
+    projectPath: Library\ShaderCache\9\98de2e92e02e868a269dafc59d1de987.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\9\98f9a434dc2f168d710ea395aa172f52.bin
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\ShaderCache\9\98f9a434dc2f168d710ea395aa172f52.bin
+    projectPath: Library\ShaderCache\9\98f9a434dc2f168d710ea395aa172f52.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\a\a1ca0e960399d51ad055274b9a22964a.bin
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\ShaderCache\a\a1ca0e960399d51ad055274b9a22964a.bin
+    projectPath: Library\ShaderCache\a\a1ca0e960399d51ad055274b9a22964a.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\a\a3bb18f9da60ace2ae364222e26852d8.bin
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\ShaderCache\a\a3bb18f9da60ace2ae364222e26852d8.bin
+    projectPath: Library\ShaderCache\a\a3bb18f9da60ace2ae364222e26852d8.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\a\a43de7e090e55882e1deaf13a8296327.bin
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\ShaderCache\a\a43de7e090e55882e1deaf13a8296327.bin
+    projectPath: Library\ShaderCache\a\a43de7e090e55882e1deaf13a8296327.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\a\a5c28a322a284a0a3cb3b3ed0ce76e34.bin
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\ShaderCache\a\a5c28a322a284a0a3cb3b3ed0ce76e34.bin
+    projectPath: Library\ShaderCache\a\a5c28a322a284a0a3cb3b3ed0ce76e34.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\a\ab53da6ecebd9960a86906d4b407fec1.bin
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\ShaderCache\a\ab53da6ecebd9960a86906d4b407fec1.bin
+    projectPath: Library\ShaderCache\a\ab53da6ecebd9960a86906d4b407fec1.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\a\ae8756a7aa6bc24590db70873c2b1685.bin
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\ShaderCache\a\ae8756a7aa6bc24590db70873c2b1685.bin
+    projectPath: Library\ShaderCache\a\ae8756a7aa6bc24590db70873c2b1685.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\b\b4e99174e52a97842f5361371ef8e121.bin
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\ShaderCache\b\b4e99174e52a97842f5361371ef8e121.bin
+    projectPath: Library\ShaderCache\b\b4e99174e52a97842f5361371ef8e121.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\b\b5eab2eb8e7f1092888c714edb05a78f.bin
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\ShaderCache\b\b5eab2eb8e7f1092888c714edb05a78f.bin
+    projectPath: Library\ShaderCache\b\b5eab2eb8e7f1092888c714edb05a78f.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\c\cc048c70a14c4c76a2a27f5ac7bda6f4.bin
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\ShaderCache\c\cc048c70a14c4c76a2a27f5ac7bda6f4.bin
+    projectPath: Library\ShaderCache\c\cc048c70a14c4c76a2a27f5ac7bda6f4.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\c\cee498b56d9254fed1e6cca7bb255e2b.bin
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\ShaderCache\c\cee498b56d9254fed1e6cca7bb255e2b.bin
+    projectPath: Library\ShaderCache\c\cee498b56d9254fed1e6cca7bb255e2b.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\d\d1ff5915b89964e19964c3216cf7d2e1.bin
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\ShaderCache\d\d1ff5915b89964e19964c3216cf7d2e1.bin
+    projectPath: Library\ShaderCache\d\d1ff5915b89964e19964c3216cf7d2e1.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\d\d41f786ab256ceb98b9c86bf69492ae5.bin
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\ShaderCache\d\d41f786ab256ceb98b9c86bf69492ae5.bin
+    projectPath: Library\ShaderCache\d\d41f786ab256ceb98b9c86bf69492ae5.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\d\d421d088c78103d3ed506efc27e56e24.bin
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\ShaderCache\d\d421d088c78103d3ed506efc27e56e24.bin
+    projectPath: Library\ShaderCache\d\d421d088c78103d3ed506efc27e56e24.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\d\d4eeb1aa07fc94eb981f04eed4680a09.bin
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\ShaderCache\d\d4eeb1aa07fc94eb981f04eed4680a09.bin
+    projectPath: Library\ShaderCache\d\d4eeb1aa07fc94eb981f04eed4680a09.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\d\d81783f40f9370db14b7857e1ced08ff.bin
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\ShaderCache\d\d81783f40f9370db14b7857e1ced08ff.bin
+    projectPath: Library\ShaderCache\d\d81783f40f9370db14b7857e1ced08ff.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\d\d911f0769a958fb304b802ca03e750a6.bin
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\ShaderCache\d\d911f0769a958fb304b802ca03e750a6.bin
+    projectPath: Library\ShaderCache\d\d911f0769a958fb304b802ca03e750a6.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\d\dec86de25d3d6b083ccf83a6e4d7bfa0.bin
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\ShaderCache\d\dec86de25d3d6b083ccf83a6e4d7bfa0.bin
+    projectPath: Library\ShaderCache\d\dec86de25d3d6b083ccf83a6e4d7bfa0.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\d\def694857ad7daa8018f31b2b2e66d83.bin
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\ShaderCache\d\def694857ad7daa8018f31b2b2e66d83.bin
+    projectPath: Library\ShaderCache\d\def694857ad7daa8018f31b2b2e66d83.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\e\e243175a334da27d147c3b39438cd1bc.bin
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\ShaderCache\e\e243175a334da27d147c3b39438cd1bc.bin
+    projectPath: Library\ShaderCache\e\e243175a334da27d147c3b39438cd1bc.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\e\e369f9376e5d5bb2acefd6fb9caa7903.bin
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\ShaderCache\e\e369f9376e5d5bb2acefd6fb9caa7903.bin
+    projectPath: Library\ShaderCache\e\e369f9376e5d5bb2acefd6fb9caa7903.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\e\e3b328df859836dd83540973a5a47473.bin
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\ShaderCache\e\e3b328df859836dd83540973a5a47473.bin
+    projectPath: Library\ShaderCache\e\e3b328df859836dd83540973a5a47473.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\e\e44554cb4ed6fab160fc82bd76c25b5b.bin
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\ShaderCache\e\e44554cb4ed6fab160fc82bd76c25b5b.bin
+    projectPath: Library\ShaderCache\e\e44554cb4ed6fab160fc82bd76c25b5b.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\e\e730012fd2307810fce551c352fb5f13.bin
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\ShaderCache\e\e730012fd2307810fce551c352fb5f13.bin
+    projectPath: Library\ShaderCache\e\e730012fd2307810fce551c352fb5f13.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\e\eb3146e73246a5fa6083106906dd0ec0.bin
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\ShaderCache\e\eb3146e73246a5fa6083106906dd0ec0.bin
+    projectPath: Library\ShaderCache\e\eb3146e73246a5fa6083106906dd0ec0.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\e\ef3478f18cc8ca1b9c61277fff75c520.bin
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\ShaderCache\e\ef3478f18cc8ca1b9c61277fff75c520.bin
+    projectPath: Library\ShaderCache\e\ef3478f18cc8ca1b9c61277fff75c520.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\e\efc1816205de596cdc45a9b0919ce5a6.bin
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\ShaderCache\e\efc1816205de596cdc45a9b0919ce5a6.bin
+    projectPath: Library\ShaderCache\e\efc1816205de596cdc45a9b0919ce5a6.bin
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -214,15 +1018,81 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
-    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\shadercompiler-UnityShaderCompiler.exe0.log
-    projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+  - path: Library\ShaderCache\f\f0223986f4d642284458b6007e02ebee.bin
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\ShaderCache\f\f0223986f4d642284458b6007e02ebee.bin
+    projectPath: Library\ShaderCache\f\f0223986f4d642284458b6007e02ebee.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\f\f4a39bac0af20ba950aaec68e9343239.bin
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\ShaderCache\f\f4a39bac0af20ba950aaec68e9343239.bin
+    projectPath: Library\ShaderCache\f\f4a39bac0af20ba950aaec68e9343239.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\f\fa4348e4d6eb8ee67743da695d5a1e35.bin
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\ShaderCache\f\fa4348e4d6eb8ee67743da695d5a1e35.bin
+    projectPath: Library\ShaderCache\f\fa4348e4d6eb8ee67743da695d5a1e35.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\f\faa805d5623d4fc7960d467071fc6954.bin
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\ShaderCache\f\faa805d5623d4fc7960d467071fc6954.bin
+    projectPath: Library\ShaderCache\f\faa805d5623d4fc7960d467071fc6954.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\f\fca67fd0978e16e48f80166ba4592d2b.bin
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\ShaderCache\f\fca67fd0978e16e48f80166ba4592d2b.bin
+    projectPath: Library\ShaderCache\f\fca67fd0978e16e48f80166ba4592d2b.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\f\fded5264688174e49d8a2c15cf7bf687.bin
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\ShaderCache\f\fded5264688174e49d8a2c15cf7bf687.bin
+    projectPath: Library\ShaderCache\f\fded5264688174e49d8a2c15cf7bf687.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\shadercompiler-UnityShaderCompiler.exe1.log
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\shadercompiler-UnityShaderCompiler.exe1.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe1.log
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\StateCache\Hierarchy\d7d62e-mainStage.json
-    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\StateCache\Hierarchy\d7d62e-mainStage.json
-    projectPath: Library\StateCache\Hierarchy\d7d62e-mainStage.json
+  - path: Library\shadercompiler-UnityShaderCompiler.exe2.log
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\shadercompiler-UnityShaderCompiler.exe2.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe2.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\shadercompiler-UnityShaderCompiler.exe3.log
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\shadercompiler-UnityShaderCompiler.exe3.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe3.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\shadercompiler-UnityShaderCompiler.exe4.log
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\shadercompiler-UnityShaderCompiler.exe4.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe4.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\shadercompiler-UnityShaderCompiler.exe5.log
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\shadercompiler-UnityShaderCompiler.exe5.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe5.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\shadercompiler-UnityShaderCompiler.exe6.log
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\shadercompiler-UnityShaderCompiler.exe6.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe6.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\shadercompiler-UnityShaderCompiler.exe7.log
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\shadercompiler-UnityShaderCompiler.exe7.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe7.log
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -232,135 +1102,33 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: Library\UIElements\EditorWindows\UnityEditor.ShaderGraph.Drawing.MaterialGraphEditWindow.pref
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Library\UIElements\EditorWindows\UnityEditor.ShaderGraph.Drawing.MaterialGraphEditWindow.pref
+    projectPath: Library\UIElements\EditorWindows\UnityEditor.ShaderGraph.Drawing.MaterialGraphEditWindow.pref
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+    projectPath: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: ProjectSettings\AudioManager.asset
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\ProjectSettings\AudioManager.asset
+    projectPath: ProjectSettings\AudioManager.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Temp\UnityLockfile
     fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Temp\UnityLockfile
     projectPath: Temp\UnityLockfile
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-056eaf0fed0c5a74faecbc443eec35be
-    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Temp\UnityTempFile-056eaf0fed0c5a74faecbc443eec35be
-    projectPath: Temp\UnityTempFile-056eaf0fed0c5a74faecbc443eec35be
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-090eb3da24012ac43a3875af8a13628f
-    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Temp\UnityTempFile-090eb3da24012ac43a3875af8a13628f
-    projectPath: Temp\UnityTempFile-090eb3da24012ac43a3875af8a13628f
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-157429b145e9b5848bedbd884c472ccd
-    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Temp\UnityTempFile-157429b145e9b5848bedbd884c472ccd
-    projectPath: Temp\UnityTempFile-157429b145e9b5848bedbd884c472ccd
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-295d031644bdeeb4a8c734599808064f
-    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Temp\UnityTempFile-295d031644bdeeb4a8c734599808064f
-    projectPath: Temp\UnityTempFile-295d031644bdeeb4a8c734599808064f
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-3b8d53f754b233f4ab8960a03d411e36
-    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Temp\UnityTempFile-3b8d53f754b233f4ab8960a03d411e36
-    projectPath: Temp\UnityTempFile-3b8d53f754b233f4ab8960a03d411e36
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-3d97771b394585d4eb6525b68eee0728
-    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Temp\UnityTempFile-3d97771b394585d4eb6525b68eee0728
-    projectPath: Temp\UnityTempFile-3d97771b394585d4eb6525b68eee0728
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-4a0b5b1b3470ce040bef8f5930096913
-    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Temp\UnityTempFile-4a0b5b1b3470ce040bef8f5930096913
-    projectPath: Temp\UnityTempFile-4a0b5b1b3470ce040bef8f5930096913
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-5820eef854bc5f148aaef0f951f85df3
-    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Temp\UnityTempFile-5820eef854bc5f148aaef0f951f85df3
-    projectPath: Temp\UnityTempFile-5820eef854bc5f148aaef0f951f85df3
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-6a0caebbd8c1cac459316d815d5a8b2d
-    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Temp\UnityTempFile-6a0caebbd8c1cac459316d815d5a8b2d
-    projectPath: Temp\UnityTempFile-6a0caebbd8c1cac459316d815d5a8b2d
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-73fd05078f0f19c4da4a3bf2aea3916c
-    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Temp\UnityTempFile-73fd05078f0f19c4da4a3bf2aea3916c
-    projectPath: Temp\UnityTempFile-73fd05078f0f19c4da4a3bf2aea3916c
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-9931e2c4d2b9a7845b5704a28af3c8ae
-    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Temp\UnityTempFile-9931e2c4d2b9a7845b5704a28af3c8ae
-    projectPath: Temp\UnityTempFile-9931e2c4d2b9a7845b5704a28af3c8ae
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-a5222eb8f76160d4d9eb8fe994f724fd
-    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Temp\UnityTempFile-a5222eb8f76160d4d9eb8fe994f724fd
-    projectPath: Temp\UnityTempFile-a5222eb8f76160d4d9eb8fe994f724fd
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-c2147c437d69a03449f9f6996eb46ef7
-    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Temp\UnityTempFile-c2147c437d69a03449f9f6996eb46ef7
-    projectPath: Temp\UnityTempFile-c2147c437d69a03449f9f6996eb46ef7
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-c4f2d21b756837f4fa53677f3d9512e1
-    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Temp\UnityTempFile-c4f2d21b756837f4fa53677f3d9512e1
-    projectPath: Temp\UnityTempFile-c4f2d21b756837f4fa53677f3d9512e1
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-ccdde8e2339b30348b206a70cc1e0fc1
-    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Temp\UnityTempFile-ccdde8e2339b30348b206a70cc1e0fc1
-    projectPath: Temp\UnityTempFile-ccdde8e2339b30348b206a70cc1e0fc1
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-e08324bd85d1c9546a94b481488a6058
-    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Temp\UnityTempFile-e08324bd85d1c9546a94b481488a6058
-    projectPath: Temp\UnityTempFile-e08324bd85d1c9546a94b481488a6058
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-e494cd7bf09b810459ced85b7495f96d
-    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Temp\UnityTempFile-e494cd7bf09b810459ced85b7495f96d
-    projectPath: Temp\UnityTempFile-e494cd7bf09b810459ced85b7495f96d
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-eb56c63273889b24aa17957adcbcc505
-    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Temp\UnityTempFile-eb56c63273889b24aa17957adcbcc505
-    projectPath: Temp\UnityTempFile-eb56c63273889b24aa17957adcbcc505
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-ed266dc92b7ec6144847e68f8ca5c544
-    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Temp\UnityTempFile-ed266dc92b7ec6144847e68f8ca5c544
-    projectPath: Temp\UnityTempFile-ed266dc92b7ec6144847e68f8ca5c544
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-efa801983dbc8744fad03794cc96e2a4
-    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Temp\UnityTempFile-efa801983dbc8744fad03794cc96e2a4
-    projectPath: Temp\UnityTempFile-efa801983dbc8744fad03794cc96e2a4
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-fdca9a5f0a8aae34da24e12af4e2de9e
-    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Temp\UnityTempFile-fdca9a5f0a8aae34da24e12af4e2de9e
-    projectPath: Temp\UnityTempFile-fdca9a5f0a8aae34da24e12af4e2de9e
+  - path: Temp\UnityTempFile-b97f9547a81e3014086c7779fdc2efd4
+    fullPath: C:\Users\simon\Documents\VR-Photogrammetry\Temp\UnityTempFile-b97f9547a81e3014086c7779fdc2efd4
+    projectPath: Temp\UnityTempFile-b97f9547a81e3014086c7779fdc2efd4
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1

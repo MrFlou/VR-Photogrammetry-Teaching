@@ -1,14 +1,7 @@
-﻿using System.Collections;
+﻿using UnityEngine;
 using System.Collections.Generic;
-using UnityEngine;
 using Valve.VR;
-using System;
 using System.IO;
-using System.IO.Compression;
-using System.Runtime.Serialization.Formatters.Binary;
-using System.Text;
-using System.Linq;
-
 
 public class paintRayCast : MonoBehaviour
 {
@@ -20,15 +13,116 @@ public class paintRayCast : MonoBehaviour
     float[,] imageArray = new float[512, 512];
     float[,] takenArray;
     bool heatmap = false;
-    float camFOV = Camera.fieldOfView / 2;
-    float difDeg = ((camFOV * 2) / res);
+
+    //Ghotst Check
+    public GameObject ghost;
+    GameObject clone;
+    public GameObject cameraModel;
+    public Transform target;
+    public Transform empty;
+    float distance;
+    float range = 0.15f;
+    float dot;
+    float ghostDot;
+    public Color green;
+    public Color yellow;
+    public float xRotation;
+    int picsTaken = 0;
+    int maxObjects = 0;
+    public float yRotation;
+    bool tPressed = false;
+    bool fullCircle = false;
+    bool fullCircle2 = false;
+
+
+    List<Transform> ghosts = new List<Transform>();
+
+    //Ghost Check
+
+    private void Start()
+    {
+        //a clone is spawned in front of the empty object at start
+        Vector3 emptyPos = empty.transform.position;
+        Vector3 emptyDirection = empty.transform.forward;
+        Quaternion emptyRotation = empty.transform.rotation;
+        float spawnDistance = 2;
+
+        Vector3 spawnPos = emptyPos + emptyDirection * spawnDistance;
+
+        clone = Instantiate(ghost, spawnPos, emptyRotation);
+
+        ghosts.Add(clone.transform);
+    }
+
 
     void Update()
     {
+        //Ghost Check
+        Vector3 emptyPos = empty.transform.position;
+        Vector3 emptyDirection = empty.transform.forward;
+        Quaternion emptyRotation = empty.transform.rotation;
+        float spawnDistance = 2;
+
+        Vector3 spawnPos = emptyPos + emptyDirection * spawnDistance;
+
+
+        //distance between ghost and camModel
+        distance = Vector3.Distance(clone.transform.position, cameraModel.transform.position);
+
+        //dot = the rotation of the camModel
+        //ghost = the rotation of the ghost
+        dot = Vector3.Dot(cameraModel.transform.forward, target.transform.forward);
+        ghostDot = Vector3.Dot(clone.transform.forward, target.transform.forward);
+
+        //when t is pressen "tPressed" becomes true. when "tPressed" is true, a clone is spawned and added to the ghosts list
+        if (tPressed == true)
+        {
+            clone = Instantiate(ghost, spawnPos, emptyRotation);
+            ghosts.Add(clone.transform);
+            tPressed = false;
+        }
+
+        if (distance < range && dot < ghostDot + 0.04 && dot > ghostDot - 0.04)
+        {
+            //if distance between the two is less than range, and the rotation of the camModel is within 0.02 degrees of the ghost, change color to green
+            clone.GetComponent<Renderer>().material.color = green;
+
+            //if t is pressed, a picture is taken and the empty object rotates
+            if (SteamVR_Actions._default.InteractUI.GetStateDown(SteamVR_Input_Sources.RightHand))
+            {
+
+                TakeImage();
+
+            }
+
+        }
+        else
+        {
+            //if the camera model is not within range, the ghost returns to its original color
+            clone.GetComponent<Renderer>().material.color = yellow;
+        }
+
+        //when the ghost has taken its first full rotation around the object, the empty object rotates downwards on the y axis
+        if (xRotation * picsTaken >= 360 && fullCircle == false)
+        {
+            empty.transform.Rotate(yRotation, 0, 0, Space.World);
+            fullCircle = true;
+        }
+
+        //when the ghost has taken its second full rotation around the object, the empty object rotates upwards on the y axis
+        if (xRotation * picsTaken >= 720 && fullCircle2 == false)
+        {
+            empty.transform.Rotate(-yRotation * 2, 0, 0, Space.World);
+            fullCircle2 = true;
+        }
+
+
+        //Ghots Check
         // Buttons setup from the VR Controller, When pressing the UI/Trigger button down TakeImage function will be called
         if (SteamVR_Actions._default.InteractUI.GetStateDown(SteamVR_Input_Sources.RightHand))
         {
-            TakeImage();
+            //Match.Update();
+            //TakeImage();
         }
 
         // When pressing the A button it will toggle the Heatmap on the model
@@ -52,24 +146,45 @@ public class paintRayCast : MonoBehaviour
 
     }
 
+    
     void TakeImage()
     {
+
+        // Calculation of the FOV and the degree pr ray that is needed to cover the cameras view.
+        float camFOV = Camera.fieldOfView / 2;
+        float difDeg = ((camFOV * 2) / res);
+        
+        // Direction of the first ray and prepairs the direction for future ray casts
         Vector3 directionRay = Quaternion.AngleAxis(camFOV, new Vector3(0, 1, 0)) * Vector3.forward;
         directionRay = Quaternion.AngleAxis(-camFOV, new Vector3(1, 0, 0)) * directionRay;
-        Physics.Raycast(Camera.transform.position, Camera.transform.TransformDirection(Vector3.forward), out hit, Mathf.Infinity);
-        Renderer rend = hit.transform.GetComponent<Renderer>();
+
+        // Test ray to see of there is an object infront of the camera
+        Renderer rend = model.transform.GetComponent<Renderer>();
         Texture2D tex = rend.material.mainTexture as Texture2D;
 
         float max = 0;
         takenArray = new float[512, 512];
-        float nowDegY = 0f;        
+        float nowDegY = 0f;
+        
 
+        //when t is pressed the pressent clone on the list gets removed as a new one takes its place
+        while (ghosts.Count > maxObjects)
+        {
+            if (ghosts[0] != null)
+                ghosts[0].gameObject.SetActive(false);
+            ghosts.RemoveAt(0);
+
+        }
+        
+        // This part goes over the X and Y reselution of the camera, for each "Pixel" a ray will be casted and calculated where it hits on the model
+        // Each position on the models texture that is hit will be noted in an Array that has the same dimentions as the texture of the model.
         for (int y = 0; y < res; y++)
         {
             float nowDegX = 0f;
             for (int x = 0; x < res; x++)
             {                
                 Physics.Raycast(Camera.transform.position, Camera.transform.TransformDirection(directionRay), out hit, 100f);
+                
                 Vector2 pixelUV = hit.textureCoord;
                 pixelUV.x *= tex.width;
                 pixelUV.y *= tex.height;                
@@ -84,6 +199,8 @@ public class paintRayCast : MonoBehaviour
 
         takenArray[0, 0] = 0;
 
+        // This combiens the arrays from previous pictures into one array
+        // This part also finds the higest number in the array
         for (int y = 0; y < takenArray.GetLength(0); y++)
         {
             for (int x = 0; x < takenArray.GetLength(1); x++)
@@ -93,7 +210,7 @@ public class paintRayCast : MonoBehaviour
             }
         }
 
-
+        // Here a new texture is made and give apporitive color for each position on the previous array
         Texture2D textureOut = new Texture2D(512, 512);
         for (int y = 0; y < imageArray.GetLength(0); y++)
             {
@@ -104,9 +221,17 @@ public class paintRayCast : MonoBehaviour
                 }
             }
 
+        // Exporting the texture and printing debug log
         SaveTextureAsPNG(textureOut, Application.dataPath + "/grayScale.png");        
         Debug.Log("max: " + max + " - PicNr: " + picNr);
         picNr = picNr + 1;
+        Debug.Log("Pictures taken: " + picsTaken);
+
+        empty.transform.Rotate(0, xRotation, 0, Space.World);
+
+        tPressed = true;
+
+        picsTaken += 1;
     }
 
     public static void SaveTextureAsPNG(Texture2D _texture, string _fullPath)
