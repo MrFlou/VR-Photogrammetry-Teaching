@@ -34,6 +34,11 @@ public class paintRayCast : MonoBehaviour
     bool fullCircle = false;
     bool fullCircle2 = false;
 
+    float map(float s, float a1, float a2, float b1, float b2)
+    {
+        return b1 + (s - a1) * (b2 - b1) / (a2 - a1);
+    }
+
 
     List<Transform> ghosts = new List<Transform>();
 
@@ -77,9 +82,19 @@ public class paintRayCast : MonoBehaviour
         //when t is pressen "tPressed" becomes true. when "tPressed" is true, a clone is spawned and added to the ghosts list
         if (tPressed == true)
         {
+            //when t is pressed the pressent clone on the list gets removed as a new one takes its place
+            while (ghosts.Count > maxObjects)
+            {
+                if (ghosts[0] != null)
+                    ghosts[0].gameObject.SetActive(false);
+                ghosts.RemoveAt(0);
+
+            }
             clone = Instantiate(ghost, spawnPos, emptyRotation);
             ghosts.Add(clone.transform);
             tPressed = false;
+
+
         }
 
         if (distance < range && dot < ghostDot + 0.04 && dot > ghostDot - 0.04)
@@ -90,9 +105,11 @@ public class paintRayCast : MonoBehaviour
             //if t is pressed, a picture is taken and the empty object rotates
             if (SteamVR_Actions._default.InteractUI.GetStateDown(SteamVR_Input_Sources.RightHand))
             {
+                empty.transform.Rotate(0, xRotation, 0, Space.World);
 
-                TakeImage();
+                tPressed = true;
 
+                picsTaken += 1;
             }
 
         }
@@ -122,7 +139,7 @@ public class paintRayCast : MonoBehaviour
         if (SteamVR_Actions._default.InteractUI.GetStateDown(SteamVR_Input_Sources.RightHand))
         {
             //Match.Update();
-            //TakeImage();
+            TakeImage();
         }
 
         // When pressing the A button it will toggle the Heatmap on the model
@@ -166,15 +183,6 @@ public class paintRayCast : MonoBehaviour
         takenArray = new float[512, 512];
         float nowDegY = 0f;
         
-
-        //when t is pressed the pressent clone on the list gets removed as a new one takes its place
-        while (ghosts.Count > maxObjects)
-        {
-            if (ghosts[0] != null)
-                ghosts[0].gameObject.SetActive(false);
-            ghosts.RemoveAt(0);
-
-        }
         
         // This part goes over the X and Y reselution of the camera, for each "Pixel" a ray will be casted and calculated where it hits on the model
         // Each position on the models texture that is hit will be noted in an Array that has the same dimentions as the texture of the model.
@@ -191,7 +199,7 @@ public class paintRayCast : MonoBehaviour
                 nowDegX = nowDegX + difDeg;
                 directionRay = Quaternion.AngleAxis(camFOV - nowDegX, new Vector3(1, 0, 0)) * Vector3.forward;
                 directionRay = Quaternion.AngleAxis(camFOV - nowDegY, new Vector3(0, 1, 0)) * directionRay;
-                takenArray[(int)pixelUV.x, (int)pixelUV.y] = 1;
+                takenArray[(int)pixelUV.x, (int)pixelUV.y] = 1.0f;
             }
             
             nowDegY = nowDegY + difDeg;            
@@ -216,7 +224,7 @@ public class paintRayCast : MonoBehaviour
             {
                 for (int x = 0; x < imageArray.GetLength(1); x++)
                 {
-                    Color col = new Color(imageArray[x, y] / max, imageArray[x, y] / picNr, imageArray[x, y] / max, 1f);                    
+                    Color col = new Color(imageArray[x, y] / max, imageArray[x, y] / picNr, map(imageArray[x, y],0,3,0,1), 1f);                    
                     textureOut.SetPixel(x, y, col);
                 }
             }
@@ -225,13 +233,7 @@ public class paintRayCast : MonoBehaviour
         SaveTextureAsPNG(textureOut, Application.dataPath + "/grayScale.png");        
         Debug.Log("max: " + max + " - PicNr: " + picNr);
         picNr = picNr + 1;
-        Debug.Log("Pictures taken: " + picsTaken);
 
-        empty.transform.Rotate(0, xRotation, 0, Space.World);
-
-        tPressed = true;
-
-        picsTaken += 1;
     }
 
     public static void SaveTextureAsPNG(Texture2D _texture, string _fullPath)
@@ -240,5 +242,6 @@ public class paintRayCast : MonoBehaviour
         File.WriteAllBytes(_fullPath, _bytes);
         Debug.Log(_bytes.Length / 512 + "Kb was saved as: " + _fullPath);
     }
+
 
 }
